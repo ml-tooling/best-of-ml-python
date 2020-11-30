@@ -1760,10 +1760,6 @@ projects:
     pypi_id: traintool
     labels: ["pytorch", "tensorflow", "sklearn"]
     category: ml-experiments
-  - name: Test Tube
-    pypi_id: test_tube
-    github_id: williamFalcon/test-tube
-    category: ml-experiments
   - name: Studio.ml
     pypi_id: studioml
     github_id: studioml/studio
@@ -2725,12 +2721,6 @@ projects:
     pypi_id: snorkel
     github_id: snorkel-team/snorkel
     category: data-loading
-  - name: OpenPyXL
-    pypi_id: openpyxl
-    homepage: https://openpyxl.readthedocs.io
-    docs_url: https://openpyxl.readthedocs.io
-    github_id: openpyxl/openpyxl
-    category: data-loading
   - name: pyexcel-xlsx
     pypi_id: pyexcel-xlsx
     github_id: pyexcel/pyexcel-xlsx
@@ -3028,6 +3018,7 @@ projects:
     pypi_id: antialiased-cnns
     github_id: adobe/antialiased-cnns
     labels: ["pytorch"]
+    license: "CC BY-NC-SA 4.0"
     category: pytorch-utils
   - name: torch-scatter
     pypi_id: torch-scatter
@@ -3322,6 +3313,6 @@ projects:
     yay_id: python-pythran
     github_id: serge-sans-paille/pythran
   - name: Feature Engine
-    pypi_id: solegalli/feature_engine
+    pypi_id: feature_engine
     conda_id: conda-forge/feature_engine
     github_id: solegalli/feature_engine
