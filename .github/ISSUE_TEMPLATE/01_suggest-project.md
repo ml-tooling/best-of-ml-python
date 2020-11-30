@@ -12,13 +12,13 @@ Please make sure that the project was not already added or suggested to this bes
 -->
 
 **Project details:**
-<!-- Please fill out as many of the following information as possible. -->
+<!-- Please fill out as much of the following information as possible. -->
 
 - Project Name:
 - Github URL:
-- Category:  <!-- Please choose one of the existing categories from the Readme or projects.yaml file -->
+- Category:  <!-- Choose one of the existing categories from the Readme or projects.yaml file -->
 - License:
-- Package Managers: <!-- Please add the IDs for every package manager that the project is available on. -->
+- Package Managers: <!-- Add the IDs for every package manager that the project is available on. -->
     - [ ] npm:
     - [ ] PyPI:
     - [ ] Conda:
