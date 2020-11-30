@@ -27,7 +27,7 @@ categories:
     subtitle: "Libraries for processing, cleaning, manipulating, and analyzing text data as well as libraries for NLP tasks such as language detection, fuzzy matching, classification, seq2seq learning, conversational AI, keyword extraction, and translation."
   - category: "image"
     title: "Image Data"
-    subtitle: "Libraries for image & video processing, manipulation, and augmentation as well as libraries for computer vision tasks such as facial recognition, object detection, character recognition, and classification."
+    subtitle: "Libraries for image & video processing, manipulation, and augmentation as well as libraries for computer vision tasks such as facial recognition, object detection, and classification."
   - category: "graph"
     title: "Graph Data"
     subtitle: "Libraries for graph processing, clustering, embedding, and machine learning tasks."
@@ -46,6 +46,9 @@ categories:
   - category: "medical-data"
     title: "Medical Data"
     subtitle: "Libraries for processing and analyzing medical data such as MRIs, EEGs, genomic data, and other medical imaging formats."
+  - category: "ocr"
+    title: "Optical Character Recognition"
+    subtitle: "Libraries for optical character recognition (OCR) and text extraction from images or videos."
   - category: "data-containers"
     title: "Data Containers & Structures"
     subtitle: "General-purpose data containers & structures as well as utilities & extensions for pandas."
@@ -136,6 +139,14 @@ labels:
     image: "https://jupyter.org/favicon.ico"
     url: "https://jupyter.org/"
     description: "Project is related to Jupyter"
+  - label: "paddle"
+    image: "https://paddlepaddle-org-cn.cdn.bcebos.com/paddle-site-front/favicon.ico"
+    url: "https://www.paddlepaddle.org"
+    description: "Project is related to PaddlePaddle"
+  - label: "pandas"
+    image: "https://pandas.pydata.org/static/img/favicon.ico"
+    url: "https://pandas.pydata.org/"
+    description: "Project is related to Pandas"
 
 projects:
   - name: Tensorflow
@@ -505,6 +516,10 @@ projects:
     github_id: RasaHQ/rasa
     labels: ["tensorflow"]
     category: nlp
+  - name: ChatterBot
+    pypi_id: chatterbot
+    github_id: gunthercox/ChatterBot
+    category: nlp
   - name: DeepPavlov
     pypi_id: deeppavlov
     github_id: deepmipt/DeepPavlov
@@ -704,6 +719,10 @@ projects:
     pypi_id: neo4j-driver
     github_id: neo4j/neo4j-python-driver
     category: db-clients
+  - name: py2neo
+    pypi_id: py2neo
+    github_id: technige/py2neo
+    category: db-clients
   - name: lazydata
     pypi_id: lazydata
     github_id: rstojnic/lazydata
@@ -773,6 +792,7 @@ projects:
   - name: AWS Data Wrangler
     pypi_id: awswrangler
     github_id: awslabs/aws-data-wrangler
+    labels: ["pandas"]
     category: db-clients
   - name: psycopg2
     pypi_id: psycopg2
@@ -821,6 +841,7 @@ projects:
     pypi_id: pandas-gbq
     github_id: pydata/pandas-gbq
     conda_id: conda-forge/pandas-gbq
+    labels: ["pandas"]
     category: db-clients
   - name: Databases
     pypi_id: databases
@@ -942,21 +963,6 @@ projects:
     pypi_id: face_recognition
     labels: ["pytorch"]
     category: image
-  - name: Tesseract
-    github_id: madmaze/pytesseract
-    pypi_id: pytesseract
-    conda_id: conda-forge/pytesseract
-    description: "Python-tesseract is an optical character recognition (OCR) tool for python."
-    category: image
-  - name: PaddleOCR
-    github_id: PaddlePaddle/PaddleOCR
-    pypi_id: paddleocr
-    labels: ["paddle"]
-    category: image
-  - name: keras-ocr
-    github_id: faustomorales/keras-ocr
-    pypi_id: keras-ocr
-    category: image
   - name: imutils
     github_id: jrosebr1/imutils
     pypi_id: imutils
@@ -985,11 +991,6 @@ projects:
     github_id: facebookresearch/SlowFast
     labels: ["pytorch"]
     category: image
-  - name: tesserocr
-    github_id: sirfz/tesserocr
-    pypi_id: tesserocr
-    conda_id: conda-forge/tesserocr
-    category: image
   - name: MoviePy
     github_id: Zulko/moviepy
     pypi_id: moviepy
@@ -1002,10 +1003,58 @@ projects:
     github_id: PaddlePaddle/PaddleDetection
     labels: ["paddle"]
     category: image
+  # OCR
+  - name: Tesseract
+    github_id: madmaze/pytesseract
+    pypi_id: pytesseract
+    conda_id: conda-forge/pytesseract
+    description: "Python-tesseract is an optical character recognition (OCR) tool for python."
+    category: ocr
+  - name: PaddleOCR
+    github_id: PaddlePaddle/PaddleOCR
+    pypi_id: paddleocr
+    labels: ["paddle"]
+    category: ocr
+  - name: keras-ocr
+    github_id: faustomorales/keras-ocr
+    pypi_id: keras-ocr
+    category: ocr
+  - name: tesserocr
+    github_id: sirfz/tesserocr
+    pypi_id: tesserocr
+    conda_id: conda-forge/tesserocr
+    category: ocr
+  - name: attention-ocr
+    github_id: emedvedev/attention-ocr
+    pypi_id: aocr
+    labels: ["tensorflow"]
+    category: ocr
+  - name: doc2text
+    github_id: jlsutherland/doc2text
+    pypi_id: doc2text
+    category: ocr
+  - name: OCRmyPDF
+    github_id: jbarlow83/OCRmyPDF
+    pypi_id: ocrmypdf
+    apt_id: ocrmypdf
+    brew_id: ocrmypdf
+    category: ocr
+  - name: EasyOCR
+    github_id: JaidedAI/EasyOCR
+    pypi_id: easyocr
+    category: ocr
+  - name: calamari
+    pypi_id: calamari_ocr
+    github_id: Calamari-OCR/calamari
+    category: ocr
   # Data Visualization
   - name: Bokeh
     pypi_id: bokeh
     github_id: bokeh/bokeh
+    category: data-viz
+  - name: AutoViz
+    github_id: AutoViML/AutoViz
+    pypi_id: autoviz
     category: data-viz
   - name: Plotly
     pypi_id: plotly
@@ -1048,6 +1097,7 @@ projects:
   - name: Cufflinks
     pypi_id: cufflinks
     github_id: santosjorge/cufflinks
+    labels: ["pandas"]
     category: data-viz
   - name: datashader
     pypi_id: datashader
@@ -1080,11 +1130,12 @@ projects:
     pypi_id: pandas-profiling
     conda_id: conda-forge/pandas-profiling
     github_id: pandas-profiling/pandas-profiling
-    labels: ["jupyter"]
+    labels: ["jupyter", "pandas"]
     category: data-viz
   - name: PandasGUI
     pypi_id: pandasgui
     github_id: adamerose/pandasgui
+    labels: ["pandas"]
     category: data-viz
   - name: Sweetviz
     pypi_id: sweetviz
@@ -1097,6 +1148,7 @@ projects:
   - name: Pandas-Bokeh
     pypi_id: pandas-bokeh
     github_id: PatrikHlobil/Pandas-Bokeh
+    labels: ["pandas"]
     category: data-viz
   - name: VisPy
     pypi_id: vispy
@@ -1402,6 +1454,7 @@ projects:
     pypi_id: deepgraph
     conda_id: conda-forge/deepgraph
     github_id: deepgraph/deepgraph
+    labels: ["pandas"]
     category: graph
   - name: Euler
     pypi_id: euler-gl
@@ -1431,6 +1484,7 @@ projects:
   - name: GeoPandas
     pypi_id: geopandas
     github_id: geopandas/geopandas
+    labels: ["pandas"]
     category: geospatial-data
   - name: folium
     pypi_id: folium
@@ -1876,6 +1930,10 @@ projects:
     github_id: tensorforce/tensorforce
     labels: ["tensorflow"]
     category: reinforcement-learning
+  - name: PFRL
+    pypi_id: pfrl
+    github_id: pfnet/pfrl
+    category: reinforcement-learning
   - name: OpenAI Gym
     pypi_id: gym
     github_id: openai/gym
@@ -1956,6 +2014,7 @@ projects:
     pypi_id: pandas
     conda_id: pandas
     github_id: pandas-dev/pandas
+    labels: ["pandas"]
     category: data-containers
   - name: numpy
     pypi_id: numpy
@@ -1969,6 +2028,7 @@ projects:
   - name: PandaPy
     pypi_id: pandapy
     github_id: firmai/pandapy
+    labels: ["pandas"]
     category: data-containers
   - name: xarray
     pypi_id: xarray
@@ -1977,16 +2037,18 @@ projects:
   - name: sklearn-pandas
     pypi_id: sklearn-pandas
     github_id: scikit-learn-contrib/sklearn-pandas
-    labels: ["sklearn"]
+    labels: ["sklearn", "pandas"]
     license: Zlib
     category: data-containers
   - name: pandasql
     pypi_id: pandasql
     github_id: yhat/pandasql
+    labels: ["pandas"]
     category: data-containers
   - name: swifter
     pypi_id: swifter
     github_id: jmcarpenter2/swifter
+    labels: ["pandas"]
     category: data-containers
   - name: Blaze
     pypi_id: blaze
@@ -2013,7 +2075,7 @@ projects:
     pypi_id: koalas
     github_id: databricks/koalas
     conda_id: conda-forge/koalas
-    labels: ["spark"]
+    labels: ["spark", "pandas"]
     category: data-containers
   - name: Bottleneck
     pypi_id: Bottleneck
@@ -2044,6 +2106,7 @@ projects:
   - name: Modin
     pypi_id: modin
     github_id: modin-project/modin
+    labels: ["pandas"]
     category: data-containers
   - name: Arctic
     pypi_id: arctic
@@ -2062,10 +2125,12 @@ projects:
   - name: Pandas Summary
     pypi_id: pandas-summary
     github_id: mouradmourafiq/pandas-summary
+    labels: ["pandas"]
     category: data-containers
   - name: fletcher
     pypi_id: fletcher
     github_id: xhochy/fletcher
+    labels: ["pandas"]
     category: data-containers
   - name: zarr
     pypi_id: zarr
@@ -2087,6 +2152,11 @@ projects:
     pypi_id: niftynet
     github_id: NifTK/NiftyNet
     labels: ["tensorflow"]
+    category: medical-data
+  - name: MONAI
+    pypi_id: monai
+    github_id: Project-MONAI/MONAI
+    labels: ["pytorch"]
     category: medical-data
   - name: MNE
     pypi_id: mne
@@ -2347,6 +2417,14 @@ projects:
     pypi_id: NearPy
     github_id: pixelogik/NearPy
     category: nn-search
+  - name: NGT
+    pypi_id: ngt
+    github_id: yahoojapan/NGT
+    category: nn-search
+  - name: N2
+    pypi_id: n2
+    github_id: kakao/n2
+    category: nn-search
   # Recommendation Systems
   - name: TF Ranking
     pypi_id: tensorflow_ranking
@@ -2534,7 +2612,7 @@ projects:
     category: privacy-ml
   - name: CrypTen
     github_id: facebookresearch/CrypTen
-    # TODO: add package manager
+    pypi_id: crypten
     labels: ["pytorch"]
     category: privacy-ml
   - name: Opacus
@@ -2612,6 +2690,10 @@ projects:
     # Add github repo
     pypi_id: beautifulsoup4
     show: True
+    category: web-scraping
+  - name: gallery-dl
+    pypi_id: gallery-dl
+    github_id: mikf/gallery-dl
     category: web-scraping
   - name: Datasets
     pypi_id: datasets
@@ -2737,6 +2819,7 @@ projects:
   - name: pandas-datareader
     pypi_id: pandas-datareader
     github_id: pydata/pandas-datareader
+    labels: ["pandas"]
     category: data-loading
   - name: TensorFlow Datasets
     pypi_id: tensorflow-datasets
@@ -2831,6 +2914,7 @@ projects:
   - name: pdpipe
     github_id: pdpipe/pdpipe
     pypi_id: pdpipe
+    labels: ["pandas"]
     category: data-pipelines
   - name: riko
     github_id: nerevu/riko
@@ -2886,6 +2970,10 @@ projects:
     labels: ["spark"]
     category: data-pipelines
   # Probabilistic Methods
+  - name: Baal
+    pypi_id: baal
+    github_id: ElementAI/baal
+    category: probabilistics
   - name: Funsor
     pypi_id: funsor
     github_id: pyro-ppl/funsor
@@ -3291,6 +3379,7 @@ projects:
   - name: BioPandas
     pypi_id: biopandas
     conda_id: conda-forge/biopandas
+    labels: ["pandas"]
     github_id: rasbt/biopandas
   - name: Streamlit
     pypi_id: streamlit
@@ -3316,3 +3405,6 @@ projects:
     pypi_id: feature_engine
     conda_id: conda-forge/feature_engine
     github_id: solegalli/feature_engine
+  - name: PennyLane
+    pypi_id: pennylane
+    github_id: PennyLaneAI/PennyLane
