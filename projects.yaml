@@ -2518,6 +2518,7 @@ projects:
     category: web-scraping
   - name: AutoScraper
     github_id: alirezamika/autoscraper
+    pypi_id: autoscraper
     category: web-scraping
   - name: soupsieve
     pypi_id: soupsieve
