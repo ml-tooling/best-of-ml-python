@@ -1,0 +1,97 @@
+# IntelliJ
+target/
+.idea/
+*.iml
+
+# Sublime
+*.sublime-workspace
+
+# Eclipse
+.settings
+
+# VS Code
+.project
+.classpath
+# Shared VS Code Settings
+.vscode/*
+!.vscode/README.md
+!.vscode/recommended-settings.json
+!.vscode/recommended-tasks.json
+!.vscode/recommended-launch.json
+!.vscode/extensions.json
+# Ignore all local history of files
+**/.history
+
+# Java
+*.class
+target/
+
+# C
+*.so
+
+# Python
+*.pyc
+*.egg-info
+__pycache__
+.ipynb_checkpoints
+.Python
+dist/
+.python-version
+.installed.cfg
+*.egg
+reqlib-metadata
+.mypy_cache/
+.venv
+venv/
+build/
+
+# Byte-compiled / optimized / DLL files
+*.pyc
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+.hypothesis/
+.pytest_cache/
+
+# NPM / Node / JavaScript
+.npm
+node_modules/
+jspm_packages/
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# vim temporary files
+*~
+.*.sw?
+
+# Other Artifacts
+hs_err_pid*
+*.log
+*.swp
+*.swo
+temp/*
+.DS_Store
+
