@@ -33,4 +33,4 @@ For more information on how to add or update projects, please read the [contribu
 
 <a href="#"><img align="right" src="http://hits.dwyl.io/ml-tooling/best-of-ml-python.svg" alt="Hit Counter"></a>
 
-Created and maintained with ❤️ by developers from Berlin.
+Created and maintained with ❤️&nbsp; by developers from Berlin.
