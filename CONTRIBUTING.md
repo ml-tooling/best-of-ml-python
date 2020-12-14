@@ -16,7 +16,7 @@ Thanks for your interest in contributing to our project. This page will give you
 If you like to suggest or add a project, choose one of the following ways:
 
 - Suggest a project by opening an issue: Please use the suggest project template from the [issue page](https://github.com/ml-tooling/best-of-ml-python/issues/new/choose) and fill in the requested information.
-- Add a project by modifying the [projects.yaml](https://github.com/ml-tooling/best-of-ml-python/blob/main/projects.yaml) and create a pull request with your addition. This can also be done directly via the [Github UI](https://github.com/ml-tooling/best-of-ml-python/edit/main/projects.yaml).
+- Add a project by modifying the [projects.yaml](https://github.com/ml-tooling/best-of-ml-python/blob/main/projects.yaml) and submitting a pull request with your addition. This can also be done directly via the [Github UI](https://github.com/ml-tooling/best-of-ml-python/edit/main/projects.yaml).
 
 Before opening an issue or pull request, please ensure that you adhere to the following guidelines:
 
@@ -40,7 +40,7 @@ Before opening an issue or pull request, please ensure that you adhere to the fo
 If you like to suggest or contribute a project update, choose one of the following ways:
 
 - Suggest a project update by opening an issue: Please use the update project template from the [issue page](https://github.com/ml-tooling/best-of-ml-python/issues/new/choose) and fill in the requested information.
-- Update a project by modifying the [projects.yaml](https://github.com/ml-tooling/best-of-ml-python/blob/main/projects.yaml) and create a pull request with your changes. This can also be done directly via the [Github UI](https://github.com/ml-tooling/best-of-ml-python/edit/main/projects.yaml).
+- Update a project by modifying the [projects.yaml](https://github.com/ml-tooling/best-of-ml-python/blob/main/projects.yaml) and submitting a pull request with your changes. This can also be done directly via the [Github UI](https://github.com/ml-tooling/best-of-ml-python/edit/main/projects.yaml).
 
 Before opening an issue or pull request, please ensure that you adhere to the following guidelines:
 
