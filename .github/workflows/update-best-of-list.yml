@@ -20,7 +20,7 @@ jobs:
       - if: ${{ github.event.inputs != null  &&  github.event.inputs.version != null }}
         name: set-version-from-input
         run: echo "VERSION=${{ github.event.inputs.version }}" >> $GITHUB_ENV
-      - if: ${{ env.VERSION != null && env.VERSION != '' }}
+      - if: ${{ ! (env.VERSION != null && env.VERSION != '') }}
         name: set-version-via-date
         run: echo "VERSION=$(date '+%Y.%m.%d')" >> $GITHUB_ENV
       - name: create-update-branch
