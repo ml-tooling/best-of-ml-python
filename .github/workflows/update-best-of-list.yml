@@ -5,7 +5,7 @@ on:
     inputs:
       version:
         description: "Version to use for this update"
-        required: true
+        required: false
   #schedule:
   #  - cron: "30 1 * * *"
 
