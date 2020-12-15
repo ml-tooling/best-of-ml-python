@@ -1,0 +1,64 @@
+name: update-best-of-list
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "Version to use for this update"
+        required: true
+  #schedule:
+  #  - cron: "30 1 * * *"
+
+env:
+  BRANCH_PREFIX: "update/"
+  DEFAULT_BRANCH: "main"
+
+jobs:
+  update-best-of-list:
+    runs-on: ubuntu-latest
+    steps:
+      - if: ${{ github.event.inputs != null  &&  github.event.inputs.version != null }}
+        name: set-version-from-input
+        run: echo "VERSION=${{ github.event.inputs.version }}" >> $GITHUB_ENV
+      - if: ${{ env.VERSION != null && env.VERSION != '' }}
+        name: set-version-via-date
+        run: echo "VERSION=$(date '+%Y.%m.%d')" >> $GITHUB_ENV
+      - name: create-update-branch
+        uses: peterjgrainger/action-create-branch@v2.0.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          branch: "${{ env.BRANCH_PREFIX }}${{ env.VERSION }}"
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+          ref: ${{ env.BRANCH_PREFIX }}${{ env.VERSION }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: update-best-of-list
+        uses: ml-tooling/best-of-update-action@v0.1.3
+        with:
+          libraries_key: ${{ secrets.LIBRARIES_KEY }}
+          github_key: ${{ secrets.GITHUB_TOKEN }}
+      - name: push-update
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          branch: ${{ env.BRANCH_PREFIX }}${{ env.VERSION  }}
+          commit_user_name: best-of update
+          commit_user_email: actions@github.com
+          commit_message: Update best-of list for version ${{ env.VERSION  }}
+          tagging_message: ${{ env.VERSION  }}
+          skip_dirty_check: true
+          commit_options: "--allow-empty"
+      - name: create-pull-request
+        shell: bash
+        run: |
+          # Stops script execution if a command has an error
+          set -e
+          curl -fsSL https://github.com/github/hub/raw/master/script/get | bash -s 2.14.2
+          bin/hub pull-request -b ${{ env.DEFAULT_BRANCH }} -h ${{ env.BRANCH_PREFIX }}${{ env.VERSION  }} --no-edit -m "Best-of update: ${{ env.VERSION  }}" || true
+          rm bin/hub
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      # TODO: create draft release with added projects, trending projects, removed projects (hidden)
