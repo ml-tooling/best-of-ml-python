@@ -2332,6 +2332,11 @@ projects:
     pypi_id: fbprophet
     github_id: facebook/prophet
     category: time-series-data
+  - name: Darts
+    pypi_id: u8darts
+    github_id: unit8co/darts
+    dockerhub_id: unit8/darts
+    category: time-series-data
   - name: PyFlux
     pypi_id: pyflux
     github_id: RJT1990/pyflux
