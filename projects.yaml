@@ -801,7 +801,7 @@ projects:
     category: db-clients
   - name: Records
     pypi_id: records
-    github_id: kennethreitz-archive/records
+    github_id: kennethreitz42/records
     conda_id: conda-forge/records
     category: db-clients
   - name: PugSQL
@@ -820,7 +820,7 @@ projects:
     category: db-clients
   - name: mysqlclient
     pypi_id: mysqlclient
-    github_id: PyMySQL/mysqlclient-python
+    github_id: PyMySQL/mysqlclient
     conda_id: conda-forge/mysqlclient
     category: db-clients
   - name: Motor
