@@ -1,6 +1,7 @@
 configuration:
   min_stars: 150
   require_github: True
+  max_trending_projects: 10
   allowed_licenses:
     [
       "Unlicense",
