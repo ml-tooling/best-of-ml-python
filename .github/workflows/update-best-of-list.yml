@@ -1,4 +1,4 @@
-# Based on https://github.com/ml-tooling/best-of-update-action/blob/v0.3.0/workflows/update-best-of-list.yml
+# Based on https://github.com/ml-tooling/best-of-update-action/blob/v0.3.2/workflows/update-best-of-list.yml
 name: update-best-of-list
 
 on:
@@ -7,8 +7,8 @@ on:
       version:
         description: "Version to use for this update"
         required: false
-  #schedule:
-  #  - cron: "30 1 * * *"
+  schedule:
+    - cron: "0 18 * * 4" # Every thursday at 6pm
 
 env:
   BRANCH_PREFIX: "update/"
@@ -38,7 +38,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: update-best-of-list
-        uses: ml-tooling/best-of-update-action@v0.3.0
+        uses: ml-tooling/best-of-update-action@v0.3.2
         with:
           libraries_key: ${{ secrets.LIBRARIES_KEY }}
           github_key: ${{ secrets.GITHUB_TOKEN }}
