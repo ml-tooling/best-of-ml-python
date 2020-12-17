@@ -3240,10 +3240,6 @@ projects:
     github_id: anderskm/gputil
     pypi_id: gputil
     category: system-monitoring
-  - name: StackImpact
-    pypi_id: stackimpact
-    github_id: stackimpact/stackimpact-python
-    category: system-monitoring
   - name: memory-profiler
     pypi_id: memory_profiler
     github_id: pythonprofilers/memory_profiler
