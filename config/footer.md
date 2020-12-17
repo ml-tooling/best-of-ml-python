@@ -23,9 +23,3 @@ For more information on how to add or update projects, please read the [contribu
 ## License
 
 [![CC0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-sa.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
-
----
-
-<a href="#"><img align="right" src="http://hits.dwyl.io/ml-tooling/best-of-ml-python.svg" alt="Hit Counter"></a>
-
-Created and maintained with ❤️&nbsp; by developers from Berlin.
