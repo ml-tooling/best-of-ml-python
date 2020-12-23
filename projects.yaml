@@ -2536,7 +2536,6 @@ projects:
     pypi_id: pymilvus
     dockerhub_id: milvusdb/milvus
     github_id: milvus-io/milvus
-    npm_id: "@arkie/milvus-client"
     category: nn-search
   - name: Faiss
     pypi_id: pymilvus
@@ -2851,6 +2850,18 @@ projects:
     pypi_id: beautifulsoup4
     conda_id: conda-forge/beautifulsoup4
     show: True
+    category: web-scraping
+  - name: Cola
+    github_id: qinxuye/cola
+    pypi_id: cola
+    category: web-scraping
+  - name: Lassie
+    github_id: michaelhelmick/lassie
+    pypi_id: lassie
+    category: web-scraping
+  - name: feedparser
+    github_id: kurtmckee/feedparser
+    pypi_id: feedparser
     category: web-scraping
   - name: gallery-dl
     pypi_id: gallery-dl
@@ -3788,3 +3799,56 @@ projects:
     pypi_id: pretrainedmodels
     labels: ["pytorch"]
     category: pytorch-utils
+  - name: python-bigquery
+    github_id: googleapis/python-bigquery
+    pypi_id: google-cloud-bigquery
+    category: db-clients
+  - name: Graphviz
+    github_id: xflr6/graphviz
+    pypi_id: graphviz
+    category: data-viz
+  - name: Datasette
+    github_id: simonw/datasette
+    pypi_id: datasette
+    brew_id: datasette
+  - name: tinygrad
+    github_id: geohot/tinygrad
+    labels: ["pytorch"]
+    category: pytorch-utils
+  - name: OpenNRE
+    github_id: thunlp/OpenNRE
+    # TODO: add package manager
+    category: nlp
+  - name: FairScale
+    github_id: facebookresearch/fairscale
+    pypi_id: fairscale
+    labels: ["pytorch"]
+    license: BSD-3-Clause
+    category: distributed-ml
+  - name: Sematch
+    github_id: gsi-upm/sematch
+    pypi_id: sematch
+    license: Apache-2.0
+    category: graph
+  - name: Wand
+    github_id: emcconville/wand
+    pypi_id: wand
+    license: MIT
+    category: image
+  - name: pyvips
+    github_id: libvips/pyvips
+    pypi_id: pyvips
+    conda_id: conda-forge/pyvips
+    category: image
+  - name: nude.py
+    github_id: hhatto/nude.py
+    pypi_id: nudepy
+    category: image
+  - name: Queries
+    github_id: gmr/queries
+    pypi_id: queries
+    category: db-clients
+  - name: Norfair
+    github_id: tryolabs/norfair
+    pypi_id: norfair
+    category: image
