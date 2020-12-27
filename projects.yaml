@@ -110,40 +110,40 @@ categories:
 
 labels:
   - label: "tensorflow"
-    image: "https://www.gstatic.com/devrel-devsite/prod/vc8928e4803ba00823d2deb39c327db4919db629f1ecb648b587b35b95297bc3b/tensorflow/images/favicon.png"
-    url: "https://www.tensorflow.org/"
+    image: "https://bit.ly/2WMff3g"
+    url: "" # https://www.tensorflow.org/
     description: "Project is related to Tensorflow"
   - label: "sklearn"
-    image: "https://scikit-learn.org/stable/_static/favicon.ico"
-    url: "https://scikit-learn.org"
+    image: "https://bit.ly/3prMLZ7"
+    url: "" # https://scikit-learn.org
     description: "Project is related to Sklearn"
   - label: "pytorch"
-    image: "https://pytorch.org/favicon.ico"
-    url: "https://pytorch.org"
+    image: "https://bit.ly/3aK8jvP"
+    url: "" # https://pytorch.org
     description: "Project is related to PyTorch"
   - label: "mxnet"
-    image: "https://mxnet.apache.org/assets/img/mxnet_m.png"
-    url: "https://mxnet.apache.org"
+    image: "https://bit.ly/38EEfPv"
+    url: "" # https://mxnet.apache.org
     description: "Project is related to MxNet"
   - label: "keras"
-    image: "https://keras.io/img/favicon.ico"
-    url: "https://keras.io"
+    image: "https://bit.ly/2M0xLmr"
+    url: "" # https://keras.io
     description: "Project is related to Keras"
   - label: "spark"
-    image: "https://spark.apache.org/favicon.ico"
-    url: "https://spark.apache.org"
+    image: "https://bit.ly/3hjSspb"
+    url: "" # https://spark.apache.org
     description: "Project is related to Apache Spark"
   - label: "jupyter"
-    image: "https://jupyter.org/favicon.ico"
-    url: "https://jupyter.org/"
+    image: "https://bit.ly/34ND1jR"
+    url: "" # https://jupyter.org/
     description: "Project is related to Jupyter"
   - label: "paddle"
-    image: "https://paddlepaddle-org-cn.cdn.bcebos.com/paddle-site-front/favicon.ico"
-    url: "https://www.paddlepaddle.org"
+    image: "https://bit.ly/3mSIQD5"
+    url: "" # https://www.paddlepaddle.org
     description: "Project is related to PaddlePaddle"
   - label: "pandas"
-    image: "https://pandas.pydata.org/static/img/favicon.ico"
-    url: "https://pandas.pydata.org/"
+    image: "https://bit.ly/2Jmaz12"
+    url: "" # https://pandas.pydata.org/
     description: "Project is related to Pandas"
 
 projects:
@@ -953,6 +953,7 @@ projects:
     github_id: python-pillow/Pillow
     conda_id: conda-forge/pillow
     license: PIL
+    show: True
     category: image
   - name: PyTorch3D
     pypi_id: pytorch3d
@@ -3618,6 +3619,7 @@ projects:
     github_id: timesler/facenet-pytorch
     pypi_id: facenet-pytorch
     labels: ["pytorch"]
+    category: image
   - name: chainercv
     github_id: chainer/chainercv
     pypi_id: chainercv
