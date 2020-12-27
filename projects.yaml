@@ -112,39 +112,35 @@ labels:
   - label: "tensorflow"
     image: "https://bit.ly/2WMff3g"
     url: "" # https://www.tensorflow.org/
-    description: "Project is related to Tensorflow"
+    description: "Tensorflow related project"
   - label: "sklearn"
     image: "https://bit.ly/3prMLZ7"
     url: "" # https://scikit-learn.org
-    description: "Project is related to Sklearn"
+    description: "Sklearn related project"
   - label: "pytorch"
     image: "https://bit.ly/3aK8jvP"
     url: "" # https://pytorch.org
-    description: "Project is related to PyTorch"
+    description: "PyTorch related project"
   - label: "mxnet"
     image: "https://bit.ly/38EEfPv"
     url: "" # https://mxnet.apache.org
-    description: "Project is related to MxNet"
-  - label: "keras"
-    image: "https://bit.ly/2M0xLmr"
-    url: "" # https://keras.io
-    description: "Project is related to Keras"
+    description: "MxNet related project"
   - label: "spark"
     image: "https://bit.ly/3hjSspb"
     url: "" # https://spark.apache.org
-    description: "Project is related to Apache Spark"
+    description: "Apache Spark related project"
   - label: "jupyter"
     image: "https://bit.ly/34ND1jR"
     url: "" # https://jupyter.org/
-    description: "Project is related to Jupyter"
+    description: "Jupyter related project"
   - label: "paddle"
     image: "https://bit.ly/3mSIQD5"
     url: "" # https://www.paddlepaddle.org
-    description: "Project is related to PaddlePaddle"
+    description: "PaddlePaddle related project"
   - label: "pandas"
     image: "https://bit.ly/2Jmaz12"
     url: "" # https://pandas.pydata.org/
-    description: "Project is related to Pandas"
+    description: "Pandas related project"
 
 projects:
   - name: Tensorflow
@@ -167,7 +163,7 @@ projects:
     github_id: keras-team/keras
     conda_id: conda-forge/keras
     docs_url: https://keras.io
-    labels: ["keras"]
+    labels: ["tensorflow"]
     category: ml-frameworks
   - name: XGBoost
     pypi_id: xgboost
@@ -252,7 +248,7 @@ projects:
   - name: ktrain
     pypi_id: ktrain
     github_id: amaiya/ktrain
-    labels: ["keras"]
+    labels: ["tensorflow"]
     category: ml-frameworks
   - name: tensorpack
     pypi_id: tensorpack
@@ -546,7 +542,7 @@ projects:
   - name: DeepPavlov
     pypi_id: deeppavlov
     github_id: deepmipt/DeepPavlov
-    labels: ["tensorflow", "keras"]
+    labels: ["tensorflow"]
     category: nlp
   - name: PyText
     pypi_id: pytext-nlp
@@ -658,7 +654,7 @@ projects:
   - name: anaGo
     pypi_id: anago
     github_id: Hironsan/anago
-    labels: ["keras"]
+    labels: ["tensorflow"]
     category: nlp
   - name: NeMo
     pypi_id: nemo-toolkit
@@ -668,7 +664,7 @@ projects:
   - name: MatchZoo
     pypi_id: matchzoo
     github_id: NTMC-Community/MatchZoo
-    labels: ["keras"]
+    labels: ["tensorflow"]
     category: nlp
   - name: Texar
     pypi_id: texar
@@ -1070,6 +1066,7 @@ projects:
   - name: keras-ocr
     github_id: faustomorales/keras-ocr
     pypi_id: keras-ocr
+    labels: ["tensorflow"]
     category: ocr
   - name: tesserocr
     github_id: sirfz/tesserocr
@@ -1343,7 +1340,7 @@ projects:
   - name: keract
     pypi_id: keract
     github_id: philipperemy/keract
-    labels: ["keras"]
+    labels: ["tensorflow"]
     category: interpretability
   - name: tf-explain
     pypi_id: tf-explain
@@ -1384,7 +1381,7 @@ projects:
     pypi_id: innvestigate
     github_id: albermax/innvestigate
     license: BSD-2-Clause
-    labels: ["keras"]
+    labels: ["tensorflow"]
     category: interpretability
   - name: LOFO
     pypi_id: lofo-importance
@@ -1402,6 +1399,7 @@ projects:
   - name: keras-vis
     pypi_id: keras-vis
     github_id: raghakot/keras-vis
+    labels: ["tensorflow"]
     category: interpretability
   - name: Explainability 360
     pypi_id: aix360
@@ -1494,7 +1492,7 @@ projects:
   - name: StellarGraph
     pypi_id: stellargraph
     github_id: stellargraph/stellargraph
-    labels: ["keras"]
+    labels: ["tensorflow"]
     category: graph
   - name: Node2Vec
     pypi_id: node2vec
@@ -1513,7 +1511,7 @@ projects:
   - name: Spektral
     pypi_id: spektral
     github_id: danielegrattarola/spektral
-    labels: ["keras", "tensorflow"]
+    labels: [tensorflow"]
     category: graph
   - name: GraphEmbedding
     github_id: shenweichen/GraphEmbedding
@@ -1737,7 +1735,7 @@ projects:
   - name: Talos
     pypi_id: talos
     github_id: autonomio/talos
-    labels: ["keras"]
+    labels: ["tensorflow"]
     category: hyperopt
   - name: scikit-optimize
     pypi_id: scikit-optimize
@@ -1760,7 +1758,7 @@ projects:
   - name: Keras Tuner
     pypi_id: keras-tuner
     github_id: keras-team/keras-tuner
-    labels: ["keras"]
+    labels: ["tensorflow"]
     category: hyperopt
   - name: Devol
     github_id: joeddav/devol
@@ -1779,7 +1777,7 @@ projects:
   - name: AutoKeras
     pypi_id: autokeras
     github_id: keras-team/autokeras
-    labels: ["keras"]
+    labels: ["tensorflow"]
     category: hyperopt
   - name: AdaNet
     pypi_id: adanet
@@ -1798,7 +1796,7 @@ projects:
   - name: Hyperas
     pypi_id: hyperas
     github_id: maxpumperla/hyperas
-    labels: ["keras"]
+    labels: ["tensorflow"]
     category: hyperopt
   - name: SMAC3
     pypi_id: smac
@@ -1925,9 +1923,9 @@ projects:
     pypi_id: labml
     github_id: lab-ml/labml
     category: ml-experiments
-  - name: TRAINS
-    pypi_id: trains
-    github_id: allegroai/trains
+  - name: ClearML
+    pypi_id: clearml
+    github_id: allegroai/clearml
     dockerhub_id: allegroai/trains
     category: ml-experiments
   - name: snakemake
@@ -2085,7 +2083,7 @@ projects:
   - name: keras-rl
     pypi_id: keras-rl
     github_id: keras-rl/keras-rl
-    labels: ["keras"]
+    labels: ["tensorflow"]
     category: reinforcement-learning
   - name: ReAgent
     github_id: facebookresearch/ReAgent
@@ -2451,7 +2449,7 @@ projects:
     category: distributed-ml
   - name: MMLSpark
     github_id: Azure/mmlspark
-    pypi_id: mmlspark 
+    pypi_id: mmlspark
     labels: ["spark"]
     category: distributed-ml
   - name: Fiber
@@ -3614,7 +3612,7 @@ projects:
   - name: efficientnet
     github_id: qubvel/efficientnet
     pypi_id: efficientnet
-    labels: ["keras"]
+    labels: ["tensorflow"]
   - name: facenet-pytorch
     github_id: timesler/facenet-pytorch
     pypi_id: facenet-pytorch
@@ -3670,7 +3668,7 @@ projects:
   - name: segmentation_models
     github_id: qubvel/segmentation_models
     pypi_id: segmentation_models
-    labels: ["tensorflow", "keras"]
+    labels: ["tensorflow"]
     category: image
   - name: reformer-pytorch
     github_id: lucidrains/reformer-pytorch
@@ -3682,7 +3680,6 @@ projects:
     pypi_id: efficientnet-pytorch
     labels: ["pytorch"]
     category: pytorch-utils
-
 
   - name: dlib
     github_id: davisking/dlib
@@ -3733,7 +3730,7 @@ projects:
   - name: elegy
     github_id: poets-ai/elegy
     pypi_id: elegy
-    labels: ["keras", "jax"]
+    labels: ["tensorflow", "jax"]
     category: ml-frameworks
   - name: lightly
     github_id: lightly-ai/lightly
