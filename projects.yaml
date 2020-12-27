@@ -107,9 +107,6 @@ categories:
   - category: "db-clients"
     title: "Database Clients"
     subtitle: "Libraries for connecting to, operating, and querying databases."
-  - category: "system-monitoring"
-    title: "System Monitoring & Profiling"
-    subtitle: "Libraries to monitor, collect, and visualize system metrics (e.g., memory, CPU, GPU)."
 
 labels:
   - label: "tensorflow"
@@ -2778,6 +2775,15 @@ projects:
     labels: ["pytorch"]
     category: privacy-ml
   # GPU Utilities
+  - name: gpustat
+    github_id: wookayin/gpustat
+    pypi_id: gpustat
+    conda_id: conda-forge/gpustat
+    category: gpu-utilities
+  - name: GPUtil
+    github_id: anderskm/gputil
+    pypi_id: gputil
+    category: gpu-utilities
   - name: ArrayFire
     github_id: arrayfire/arrayfire
     pypi_id: arrayfire
@@ -3426,63 +3432,6 @@ projects:
     github_id: tensorflow/model-optimization
     labels: ["tensorflow"]
     category: tensorflow-utils
-  # System Monitoring & Profiling
-  - name: gpustat
-    github_id: wookayin/gpustat
-    pypi_id: gpustat
-    conda_id: conda-forge/gpustat
-    category: system-monitoring
-  - name: GPUtil
-    github_id: anderskm/gputil
-    pypi_id: gputil
-    category: system-monitoring
-  - name: memory-profiler
-    pypi_id: memory_profiler
-    github_id: pythonprofilers/memory_profiler
-    category: system-monitoring
-  - name: psutil
-    pypi_id: psutil
-    github_id: giampaolo/psutil
-    conda_id: conda-forge/psutil
-    category: system-monitoring
-  - name: Diamond
-    pypi_id: diamond
-    github_id: python-diamond/Diamond
-    category: system-monitoring
-  - name: Profiling
-    pypi_id: profiling
-    github_id: what-studio/profiling
-    category: system-monitoring
-  - name: Glances
-    pypi_id: glances
-    github_id: nicolargo/glances
-    conda_id: conda-forge/glances
-    category: system-monitoring
-  - name: py-spy
-    pypi_id: py-spy
-    github_id: benfred/py-spy
-    cargo_id: py-spy
-    category: system-monitoring
-  - name: Scalene
-    pypi_id: scalene
-    github_id: emeryberger/scalene
-    cargo_id: py-spy
-    category: system-monitoring
-  - name: pyinstrument
-    pypi_id: pyinstrument
-    github_id: joerick/pyinstrument
-    conda_id: conda-forge/pyinstrument
-    category: system-monitoring
-  - name: Yappi
-    pypi_id: yappi
-    github_id: sumerc/yappi
-    conda_id: conda-forge/yappi
-    category: system-monitoring
-  - name: line_profiler
-    pypi_id: line_profiler
-    github_id: rkern/line_profiler
-    conda_id: conda-forge/line_profiler
-    category: system-monitoring
   # Others
   - name: tensorly
     pypi_id: tensorly
