@@ -349,6 +349,7 @@ projects:
     category: ml-frameworks
   - name: NeoML
     github_id: neoml-lib/neoml
+    license: Apache-2.0
     category: ml-frameworks
   - name: Thinc
     github_id: explosion/thinc
@@ -897,6 +898,7 @@ projects:
   - name: Torch Points 3D
     github_id: nicolas-chaulet/torch-points3d
     pypi_id: torch-points3d
+    license: BSD-3-Clause
     labels: ["pytorch"]
     category: image
   - name: Face Alignment
