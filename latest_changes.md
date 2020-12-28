@@ -2,26 +2,13 @@
 
 _Projects that have a higher project-quality score compared to the last update. There might be a variety of reasons, such as increased downloads or code activity._
 
-- <b><a href="https://github.com/albermax/innvestigate">iNNvestigate</a></b> (🥉21 ·  ⭐ 740 · 📈) - A toolbox to iNNvestigate neural networks' predictions!. <code><a href="http://bit.ly/3rqEWVr">BSD-2</a></code> <code><img src="https://bit.ly/2WMff3g" style="display:inline;" width="13" height="13"></code>
+- <b><a href="https://github.com/enigmampc/catalyst">Enigma Catalyst</a></b> (🥉23 ·  ⭐ 1.9K · 📈) - An Algorithmic Trading Library for Crypto-Assets in Python. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code>
+- <b><a href="https://github.com/benedekrozemberczki/karateclub">Karate Club</a></b> (🥈21 ·  ⭐ 1.1K · 📈) - Karate Club: An API Oriented Open-source Python Framework.. <code><a href="http://bit.ly/2M0xdwT">❗️GPL-3.0</a></code>
+- <b><a href="https://github.com/projectglow/glow">Glow</a></b> (🥉19 ·  ⭐ 150 · 📈) - An open-source toolkit for large-scale genomic analysis. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code>
 
 ## 📉 Trending Down
 
 _Projects that have a lower project-quality score compared to the last update. There might be a variety of reasons such as decreased downloads or code activity._
 
-- <b><a href="https://github.com/facebookresearch/faiss">Faiss</a></b> (🥇28 ·  ⭐ 12K · 📉) - A library for efficient similarity search and clustering of dense.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
-- <b><a href="https://github.com/pytorch/captum">Captum</a></b> (🥈25 ·  ⭐ 2K · 📉) - Model interpretability and understanding for PyTorch. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code> <code><img src="https://bit.ly/3aK8jvP" style="display:inline;" width="13" height="13"></code>
-- <b><a href="https://github.com/Epistimio/orion">Orion</a></b> (🥉22 ·  ⭐ 180 · 📉) - Asynchronous Distributed Hyperparameter Optimization. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code>
-- <b><a href="https://github.com/sentinelsat/sentinelsat">Sentinelsat</a></b> (🥉21 ·  ⭐ 530 · 📉) - Search and download Copernicus Sentinel satellite images. <code><a href="http://bit.ly/2M0xdwT">❗️GPL-3.0</a></code>
-- <b><a href="https://github.com/SeldonIO/alibi-detect">alibi-detect</a></b> (🥉20 ·  ⭐ 440 · 📉) - Algorithms for outlier and adversarial instance detection,.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code>
-- <b><a href="https://github.com/trevorstephens/gplearn">gplearn</a></b> (🥉19 ·  ⭐ 900 · 💤) - Genetic Programming in Python, with a scikit-learn inspired API. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code> <code><img src="https://bit.ly/3prMLZ7" style="display:inline;" width="13" height="13"></code>
-- <b><a href="https://github.com/gyli/PyWaffle">PyWaffle</a></b> (🥉19 ·  ⭐ 370 · 📉) - Make Waffle Charts in Python. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
-- <b><a href="https://github.com/statisticianinstilettos/recmetrics">recmetrics</a></b> (🥉19 ·  ⭐ 220 · 📉) - A library of metrics for evaluating recommender systems. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
-- <b><a href="https://github.com/xhochy/fletcher">fletcher</a></b> (🥉19 ·  ⭐ 200 · 📉) - Pandas ExtensionDType/Array backed by Apache Arrow. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code><img src="https://bit.ly/2Jmaz12" style="display:inline;" width="13" height="13"></code>
-- <b><a href="https://github.com/biovault/nptsne">nptsne</a></b> (🥉14 ·  ⭐ 24 · 📉) - nptsne is a numpy compatible python binary package that offers a.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code>
-
-## ➕ Added Projects
-
-_Projects that were recently added to this best-of list._
-
-- <b><a href="https://github.com/allegroai/clearml">ClearML</a></b> (🥉23 ·  ⭐ 2K · ➕) - ClearML - Auto-Magical Suite of tools to streamline your ML.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code>
+- <b><a href="https://github.com/Xtra-Computing/thundergbm">ThunderGBM</a></b> (🥉16 ·  ⭐ 570 · 📉) - ThunderGBM: Fast GBDTs and Random Forests on GPUs. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code>
 
