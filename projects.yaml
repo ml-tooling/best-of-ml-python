@@ -139,6 +139,7 @@ projects:
     github_id: tensorflow/tensorflow
     pypi_id: tensorflow
     conda_id: conda-forge/tensorflow
+    dockerhub_id: tensorflow/tensorflow
     docs_url: https://www.tensorflow.org/overview
     category: ml-frameworks
     labels: ["tensorflow"]
@@ -3794,3 +3795,20 @@ projects:
     github_id: tryolabs/norfair
     pypi_id: norfair
     category: image
+  - name: scipy
+    github_id: scipy/scipy
+    pypi_id: scipy
+    description: "Ecosystem of open-source software for mathematics, science, and engineering."
+    conda_id: conda-forge/scipy
+  - name: Auto TS
+    github_id: AutoViML/Auto_TS
+    pypi_id: auto-ts
+    category: time-series-data
+  - name: featurewiz
+    github_id: AutoViML/featurewiz
+    pypi_id: featurewiz
+    category: hyperopt
+  - name: Auto ViML
+    github_id: AutoViML/Auto_ViML
+    pypi_id: autoviml
+    category: hyperopt
