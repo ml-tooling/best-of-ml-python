@@ -88,7 +88,7 @@ categories:
     subtitle: "Libraries to visualize, explain, debug, evaluate, and interpret machine learning models."
   - category: "nn-search"
     title: "Vector Similarity Search (ANN)"
-    subtitle: "Libraries for Approximate Nearest Neighbor Search and Vector Indexing/Similarity Search. For an awesome comparison, refer to this [benchmark](https://github.com/erikbern/ann-benchmarks)."
+    subtitle: "Libraries for Approximate Nearest Neighbor Search and Vector Indexing/Similarity Search."
   - category: "probabilistics"
     title: "Probabilistic Methods"
     subtitle: "Libraries providing capabilities for probabilistic programming/reasoning, bayesian inference, and gaussian processes."
@@ -643,7 +643,7 @@ projects:
   - name: textpipe
     pypi_id: textpipe
     github_id: textpipe/textpipe
-    category: nlp # data-collection
+    category: nlp
   - name: anaGo
     pypi_id: anago
     github_id: Hironsan/anago
@@ -1130,7 +1130,7 @@ projects:
     category: data-viz
   - name: Altair
     pypi_id: altair
-    github_id: ellisonbg/altair
+    github_id: altair-viz/altair
     conda_id: conda-forge/altair
     category: data-viz
   - name: bqplot
@@ -2844,114 +2844,6 @@ projects:
     github_id: rapidsai/cusignal
     description: "GPU accelerated signal processing."
     category: gpu-utilities
-  # Web Scraping & Crawling
-  - name: beautifulsoup4
-    # Add github repo
-    pypi_id: beautifulsoup4
-    conda_id: conda-forge/beautifulsoup4
-    show: True
-    category: web-scraping
-  - name: Cola
-    github_id: qinxuye/cola
-    pypi_id: cola
-    category: web-scraping
-  - name: Lassie
-    github_id: michaelhelmick/lassie
-    pypi_id: lassie
-    category: web-scraping
-  - name: feedparser
-    github_id: kurtmckee/feedparser
-    pypi_id: feedparser
-    category: web-scraping
-  - name: gallery-dl
-    pypi_id: gallery-dl
-    github_id: mikf/gallery-dl
-    category: web-scraping
-  - name: Datasets
-    pypi_id: datasets
-    github_id: huggingface/datasets
-    category: web-scraping
-  - name: AutoScraper
-    github_id: alirezamika/autoscraper
-    pypi_id: autoscraper
-    category: web-scraping
-  - name: soupsieve
-    pypi_id: soupsieve
-    github_id: facelessuser/soupsieve
-    conda_id: conda-forge/soupsieve
-    category: web-scraping
-  - name: Photon
-    pypi_id: photon
-    github_id: s0md3v/Photon
-    category: web-scraping
-  - name: Pattern
-    pypi_id: pattern
-    github_id: clips/pattern
-    conda_id: conda-forge/pattern
-    category: web-scraping
-  - name: lazynlp
-    github_id: chiphuyen/lazynlp
-    license: MIT
-    # TODO: add package manager
-    category: web-scraping
-  - name: micawber
-    pypi_id: micawber
-    github_id: coleifer/micawber
-    category: web-scraping
-  - name: Google Images Download
-    github_id: hardikvasa/google-images-download
-    pypi_id: google_images_download
-    category: web-scraping
-  - name: Requests-HTML
-    pypi_id: requests-html
-    github_id: psf/requests-html
-    category: web-scraping
-  - name: Scrapy
-    pypi_id: scrapy
-    github_id: scrapy/scrapy
-    conda_id: conda-forge/scrapy
-    category: web-scraping
-  - name: newspaper3k
-    pypi_id: newspaper3k
-    github_id: codelucas/newspaper
-    conda_id: conda-forge/newspaper3k
-    category: web-scraping
-  - name: youtube-dl
-    github_id: ytdl-org/youtube-dl
-    pypi_id: youtube_dl
-    brew_id: youtube-dl
-    conda_id: conda-forge/youtube-dl
-    category: web-scraping
-  - name: You-Get
-    github_id: soimort/you-get
-    pypi_id: you-get
-    brew_id: you-get
-    category: web-scraping
-  - name: MechanicalSoup
-    github_id: MechanicalSoup/MechanicalSoup
-    pypi_id: MechanicalSoup
-    conda_id: conda-forge/mechanicalsoup
-    category: web-scraping
-  - name: Grab
-    github_id: lorien/grab
-    pypi_id: grab
-    category: web-scraping
-  - name: gazpacho
-    github_id: maxhumber/gazpacho
-    pypi_id: gazpacho
-    category: web-scraping
-  - name: Transistor
-    github_id: bomquote/transistor
-    pypi_id: transistor
-    category: web-scraping
-  - name: pyspider
-    github_id: binux/pyspider
-    pypi_id: pyspider
-    category: web-scraping
-  - name: WikiExtractor
-    github_id: attardi/wikiextractor
-    pypi_id: wikiextractor
-    category: web-scraping
   # Data Loading & Extraction
   - name: Tablib
     pypi_id: tablib
@@ -3812,3 +3704,15 @@ projects:
     github_id: AutoViML/Auto_ViML
     pypi_id: autoviml
     category: hyperopt
+  - name: ANN Benchmarks
+    github_id: erikbern/ann-benchmarks
+    resource: True
+    category: nn-search
+  - name: Datasets
+    pypi_id: datasets
+    github_id: huggingface/datasets
+    category: data-loading
+  - name: best-of-web-python - Web Scraping
+    github_id: ml-tooling/best-of-web-python
+    resource: True
+    category: web-scraping
