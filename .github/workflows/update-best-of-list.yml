@@ -1,4 +1,4 @@
-# Based on https://github.com/ml-tooling/best-of-update-action/blob/v0.4.6/workflows/update-best-of-list.yml
+# Based on https://github.com/best-of-lists/best-of-update-action/blob/v0.5.3/workflows/update-best-of-list.yml
 name: update-best-of-list
 
 on:
@@ -28,8 +28,8 @@ jobs:
       - name: check-version-tag
         shell: bash
         run: |
-          git fetch --depth=1 origin +refs/tags/*:refs/tags/*
-          git show-ref --tags --verify --quiet -- "refs/tags/${{ env.VERSION }}" && echo "VERSION=$(date '+%Y.%m.%d-%H.%M')" >> $GITHUB_ENV || echo "Version tag has not been created yet."
+          git fetch --tags --force
+          git show-ref --tags --verify --quiet -- "refs/tags/${{ env.VERSION }}" && echo "VERSION=$(date '+%Y.%m.%d-%H.%M')" >> $GITHUB_ENV || exit 0
       - name: create-update-branch
         uses: peterjgrainger/action-create-branch@v2.0.1
         env:
@@ -44,7 +44,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: update-best-of-list
-        uses: ml-tooling/best-of-update-action@v0.4.6
+        uses: best-of-lists/best-of-update-action@v0.5.3
         with:
           libraries_key: ${{ secrets.LIBRARIES_KEY }}
           github_key: ${{ secrets.GITHUB_TOKEN }}
@@ -64,7 +64,7 @@ jobs:
           # Stops script execution if a command has an error
           set -e
           curl -fsSL https://github.com/github/hub/raw/master/script/get | bash -s 2.14.2
-          bin/hub pull-request -b ${{ env.DEFAULT_BRANCH }} -h ${{ env.BRANCH_PREFIX }}${{ env.VERSION  }} --no-edit -m "Best-of update: ${{ env.VERSION  }}" || true
+          bin/hub pull-request -b ${{ env.DEFAULT_BRANCH }} -h ${{ env.BRANCH_PREFIX }}${{ env.VERSION  }} --no-edit -m "Best-of update: ${{ env.VERSION  }}" -m "To finish this update: Select <code>Merge pull request</code> below and <code>Confirm merge</code>. Also, make sure to publish the created draft release in the [releases section](../releases) as well." || true
           rm bin/hub
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -75,6 +75,6 @@ jobs:
         with:
           tag_name: ${{ env.VERSION  }}
           release_name: "Update: ${{ env.VERSION  }}"
-          body_path: "latest_changes.md"
+          body_path: "latest-changes.md"
           draft: true
           prerelease: false
