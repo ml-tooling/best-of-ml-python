@@ -2367,6 +2367,16 @@ projects:
     helm_id: stable/dask
     conda_id: conda-forge/dask
     category: distributed-ml
+  - name: dask-ml
+    pypi_id: dask-ml
+    github_id: dask/dask-ml
+    conda_id: conda-forge/dask-ml
+    category: distributed-ml
+  - name: dask.distributed
+    pypi_id: distributed
+    github_id: dask/distributed
+    conda_id: conda-forge/distributed
+    category: distributed-ml
   - name: Submit it
     github_id: facebookincubator/submitit
     pypi_id: submitit
@@ -2379,11 +2389,6 @@ projects:
   - name: Ray
     pypi_id: ray
     github_id: ray-project/ray
-    category: distributed-ml
-  - name: dask-ml
-    pypi_id: dask-ml
-    github_id: dask/dask-ml
-    conda_id: conda-forge/dask-ml
     category: distributed-ml
   - name: mpi4py
     pypi_id: mpi4py
