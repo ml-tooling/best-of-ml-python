@@ -2,7 +2,7 @@
 name: "✏️ Update a project"
 about: Do you have changes for a project, e.g. missing package manager, wrong license or category?
 title: 'Update project: '
-labels: update-project
+labels: 'update-project'
 assignees: ''
 
 ---
@@ -14,7 +14,8 @@ Please state the project name that this update is referring to and list all info
 -->
 
 - Project Name:
-- <!--- State all information that needs to be updated. -->
+
+<!--- State all information that needs to be updated. -->
 
 **Additional context:**
 

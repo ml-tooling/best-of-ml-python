@@ -1,14 +1,14 @@
 ---
 name: "\U0001F4AC Anything else?"
-about: For questions or suggestions regarding the metadata collection or markdown generation, please refer to the ml-tooling/best-of-generator repository.
+about: For questions or suggestions regarding the metadata collection or markdown generation, please refer to the best-of-lists/best-of-generator repository.
 title: ''
-labels: ''
+labels: 'question'
 assignees: ''
 
 ---
 
 <!--
-For questions or suggestions regarding the project metadata collection or markdown generation, please refer to the best-of-generator repository: https://github.com/ml-tooling/best-of-generator
+For questions or suggestions regarding the project metadata collection or markdown generation, please refer to the best-of-generator repository: https://github.com/best-of-lists/best-of-generator
 -->
 
 **Describe the issue:**

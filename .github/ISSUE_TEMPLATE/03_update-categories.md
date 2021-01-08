@@ -2,13 +2,13 @@
 name: "🏷 Add or update a category"
 about: Do you like to suggest a new project category or update an existing one?
 title: ''
-labels: categories
+labels: 'category'
 assignees: ''
 
 ---
 
 <!--
-Please select either to add or to update a category:
+Please select either to add or to update a category. Tick of with: [] -> [x]
 -->
 
 - [ ] Add category

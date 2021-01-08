@@ -17,4 +17,4 @@
 tick off all the boxes. [] -> [x] -->
 
 - [ ] I have read the [CONTRIBUTING](https://github.com/ml-tooling/best-of-ml-python/blob/main/CONTRIBUTING.md) guidelines.
-- [ ] I have not modified the `README.md` file. Projects are only supposed to be added or updated within the `projects.yaml` file since the `README.md` file is automatically generated every few days.
+- [ ] I have not modified the `README.md` file. Projects are only supposed to be added or updated within the `projects.yaml` file since the `README.md` file is automatically generated.
