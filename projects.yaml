@@ -3734,8 +3734,6 @@ projects:
     github_id: ml-tooling/best-of-web-python
     resource: True
     category: web-scraping
-
-  # NEW PROJECTS
   - name: m2cgen
     github_id: BayesWitnesses/m2cgen
     category: "model-serialisation"
@@ -4079,3 +4077,163 @@ projects:
     github_id: target/matrixprofile-ts
     category: time-series-data
     pypi_id: matrixprofile-ts
+  - name: robustness
+    github_id: MadryLab/robustness
+    category: adversarial
+    pypi_id: robustness
+  - name: TTS
+    github_id: mozilla/TTS
+    category: audio
+  - name: spark-deep-learning
+    github_id: databricks/spark-deep-learning
+    category: data-pipelines
+    labels: ["spark"]
+  - name: mrq
+    github_id: pricingassistant/mrq
+    category: data-pipelines
+    pypi_id: mrq
+  - name: zenml
+    github_id: maiot-io/zenml
+    category: data-pipelines
+    pypi_id: zenml
+  - name: flupy
+    github_id: olirice/flupy
+    category: data-pipelines
+    pypi_id: flupy
+  - name: ploomber
+    github_id: ploomber/ploomber
+    category: data-pipelines
+    pypi_id: ploomber
+  - name: animatplot
+    github_id: t-makaro/animatplot
+    category: data-viz
+    conda_id: conda-forge/animatplot
+    pypi_id: animatplot
+  - name: ivis
+    github_id: beringresearch/ivis
+    category: data-viz
+    labels: ["tensorflow"]
+    pypi_id: ivis
+  - name: somoclu
+    github_id: peterwittek/somoclu
+    category: distributed-ml
+    conda_id: conda-forge/somoclu
+    pypi_id: somoclu
+  - name: tf-quant-finance
+    github_id: google/tf-quant-finance
+    category: financial-data
+    labels: ["tensorflow"]
+    pypi_id: tf-quant-finance
+  - name: surpriver
+    github_id: tradytics/surpriver
+    category: financial-data
+  - name: AutoGL
+    github_id: THUMNLab/AutoGL
+    category: graph
+    labels: ["pytorch"]
+    pypi_id: auto-graph-learning
+  - name: pytorch_geometric_temporal
+    github_id: benedekrozemberczki/pytorch_geometric_temporal
+    category: graph
+    labels: ["pytorch"]
+    pypi_id: torch-geometric-temporal
+  - name: sklearn-deap
+    github_id: rsteca/sklearn-deap
+    category: hyperopt
+    labels: ["sklearn"]
+    pypi_id: sklearn-deap
+  - name: lazypredict
+    github_id: shankarpandala/lazypredict
+    category: hyperopt
+    labels: ["sklearn"]
+    pypi_id: lazypredict
+  - name: image-match
+    github_id: EdjoLabs/image-match
+    category: image
+    pypi_id: image_match
+  - name: checklist
+    github_id: marcotcr/checklist
+    category: interpretability
+    labels: ["jupyter"]
+    pypi_id: checklist
+  - name: DALEX
+    github_id: ModelOriented/DALEX
+    category: interpretability
+    pypi_id: dalex
+  - name: deeplift
+    github_id: kundajelab/deeplift
+    category: interpretability
+    pypi_id: deeplift
+  - name: tcav
+    github_id: tensorflow/tcav
+    category: interpretability
+    labels: ["tensorflow"]
+    pypi_id: tcav
+  - name: aequitas
+    github_id: dssg/aequitas
+    category: interpretability
+    pypi_id: aequitas
+  - name: fairness-indicators
+    github_id: tensorflow/fairness-indicators
+    category: interpretability
+    labels: ["tensorflow", "jupyter"]
+    pypi_id: fairness-indicators
+  - name: model-card-toolkit
+    github_id: tensorflow/model-card-toolkit
+    category: interpretability
+    pypi_id: model-card-toolkit
+  - name: contextual-ai
+    github_id: SAP/contextual-ai
+    category: interpretability
+    pypi_id: contextual-ai
+  - name: aim
+    github_id: aimhubio/aim
+    category: ml-experiments
+    pypi_id: aim
+  - name: tfdeploy
+    github_id: riga/tfdeploy
+    category: model-serialisation
+    labels: ["tensorflow"]
+    pypi_id: tfdeploy
+  - name: skift
+    github_id: shaypal5/skift
+    category: nlp
+    labels: ["sklearn"]
+    pypi_id: skift
+  - name: textvec
+    github_id: textvec/textvec
+    category: nlp
+    labels: ["sklearn"]
+    pypi_id: textvec
+  - name: pdftabextract
+    github_id: WZBSocialScienceCenter/pdftabextract
+    category: ocr
+    pypi_id: pdftabextract
+  - name: scikit-rebate
+    github_id: EpistasisLab/scikit-rebate
+    category: others
+    labels: ["sklearn"]
+    pypi_id: skrebate
+  - name: pandas-ml
+    github_id: pandas-ml/pandas-ml
+    category: others
+    labels: ["sklearn", "pandas"]
+    pypi_id: pandas-ml
+  - name: bambi
+    github_id: bambinos/bambi
+    category: probabilistics
+    pypi_id: bambi
+  - name: DESlib
+    github_id: scikit-learn-contrib/DESlib
+    category: sklearn-utils
+    labels: ["sklearn"]
+    pypi_id: deslib
+  - name: skggm
+    github_id: skggm/skggm
+    category: sklearn-utils
+    labels: ["sklearn"]
+    pypi_id: skggm
+  - name: atspy
+    github_id: firmai/atspy
+    category: time-series-data
+    pypi_id: atspy
