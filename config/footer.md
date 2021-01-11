@@ -8,6 +8,9 @@
 - [**Google Dataset Search**](https://toolbox.google.com/datasetsearch): Dataset search engine by Google.
 - [**Dataset List**](https://www.datasetlist.com/): List of the biggest ML datasets from across the web.
 - [**Awesome Public Datasets**](https://github.com/awesomedata/awesome-public-datasets): A topic-centric list of open datasets.
+- [**Best-of lists**](https://best-of.org): Discover other best-of lists with awesome open-source projects on all kinds of topics.
+- [**best-of-python-dev**](https://github.com/ml-tooling/best-of-python-dev): A ranked list of awesome python developer tools and libraries.
+- [**best-of-web-python**](https://github.com/ml-tooling/best-of-web-python): A ranked list of awesome python libraries for web development.
 
 ## Contribution
 
