@@ -90,8 +90,8 @@ categories:
     title: "Vector Similarity Search (ANN)"
     subtitle: "Libraries for Approximate Nearest Neighbor Search and Vector Indexing/Similarity Search."
   - category: "probabilistics"
-    title: "Probabilistic Methods"
-    subtitle: "Libraries providing capabilities for probabilistic programming/reasoning, bayesian inference, and gaussian processes."
+    title: "Probabilistics & Statistics"
+    subtitle: "Libraries providing capabilities for probabilistic programming/reasoning, bayesian inference, gaussian processes, or statistics."
   - category: "adversarial"
     title: "Adversarial Robustness"
     subtitle: "Libraries for testing the robustness of machine learning models against attacks with adversarial/malicious examples."
@@ -100,13 +100,19 @@ categories:
     subtitle: "Libraries that require and make use of CUDA/GPU system capabilities to optimize data handling and machine learning tasks."
   - category: "tensorflow-utils"
     title: "Tensorflow Utilities"
-    subtitle: "Libraries that extend TensorFlow with general-purpose capabilities."
+    subtitle: "Libraries that extend TensorFlow with additional capabilities."
+  - category: "sklearn-utils"
+    title: "Sklearn Utilities"
+    subtitle: "Libraries that extend scikit-learn with additional capabilities."
   - category: "pytorch-utils"
     title: "Pytorch Utilities"
-    subtitle: "Libraries that extend Pytorch with general-purpose capabilities."
+    subtitle: "Libraries that extend Pytorch with additional capabilities."
   - category: "db-clients"
     title: "Database Clients"
     subtitle: "Libraries for connecting to, operating, and querying databases."
+  - category: "chinese-nlp"
+    title: "Chinese NLP"
+    ignore: True
 
 labels:
   - label: "tensorflow"
@@ -3335,10 +3341,12 @@ projects:
     github_id: scikit-learn-contrib/lightning
     conda_id: conda-forge/sklearn-contrib-lightning
     labels: ["sklearn"]
+    category: sklearn-utils
   - name: scikit-multilearn
     pypi_id: scikit-multilearn
     github_id: scikit-multilearn/scikit-multilearn
     labels: ["sklearn"]
+    category: sklearn-utils
   - name: vecstack
     pypi_id: vecstack
     github_id: vecxoz/vecstack
@@ -3356,6 +3364,7 @@ projects:
     github_id: rasbt/mlxtend
     conda_id: conda-forge/mlxtend
     labels: ["sklearn"]
+    category: sklearn-utils
   - name: metric-learn
     pypi_id: metric-learn
     github_id: scikit-learn-contrib/metric-learn
@@ -3402,6 +3411,7 @@ projects:
     pypi_id: dabl
     github_id: amueller/dabl
     labels: ["sklearn"]
+    category: sklearn-utils
   - name: River
     # TODO: pypi_id: river
     github_id: online-ml/river
@@ -3410,11 +3420,13 @@ projects:
     github_id: scikit-learn-contrib/imbalanced-learn
     conda_id: conda-forge/imbalanced-learn
     labels: ["sklearn"]
+    category: sklearn-utils
   - name: category_encoders
     pypi_id: category_encoders
     conda_id: conda-forge/category_encoders
     github_id: scikit-learn-contrib/category_encoders
     labels: ["sklearn"]
+    category: sklearn-utils
   - name: Prince
     pypi_id: prince
     github_id: MaxHalford/prince
@@ -3498,6 +3510,7 @@ projects:
     github_id: qubvel/efficientnet
     pypi_id: efficientnet
     labels: ["tensorflow"]
+    category: tensorflow-utils
   - name: facenet-pytorch
     github_id: timesler/facenet-pytorch
     pypi_id: facenet-pytorch
@@ -3716,3 +3729,348 @@ projects:
     github_id: ml-tooling/best-of-web-python
     resource: True
     category: web-scraping
+
+  # NEW PROJECTS
+  - name: m2cgen
+    github_id: BayesWitnesses/m2cgen
+    category: "model-serialisation"
+    pypi_id: m2cgen
+  - name: audioread
+    github_id: beetbox/audioread
+    category: audio
+    conda_id: conda-forge/audioread
+    pypi_id: audioread
+  - name: python_speech_features
+    github_id: jameslyons/python_speech_features
+    category: audio
+    pypi_id: python_speech_features
+  - name: tinytag
+    github_id: devsnd/tinytag
+    category: audio
+    pypi_id: tinytag
+  - name: kapre
+    github_id: keunwoochoi/kapre
+    category: audio
+    labels: ["tensorflow"]
+    pypi_id: kapre
+  - name: jieba
+    github_id: fxsjy/jieba
+    category: chinese-nlp
+    conda_id: conda-forge/jieba
+    pypi_id: jieba
+  - name: snownlp
+    github_id: isnowfy/snownlp
+    category: chinese-nlp
+    pypi_id: snownlp
+  - name: bcolz
+    github_id: Blosc/bcolz
+    category: data-containers
+    conda_id: conda-forge/bcolz
+    pypi_id: bcolz
+  - name: tabulator-py
+    github_id: frictionlessdata/tabulator-py
+    category: data-loading
+    conda_id: conda-forge/tabulator-py
+    pypi_id: tabulator
+  - name: messytables
+    github_id: okfn/messytables
+    category: data-loading
+    pypi_id: messytables
+  - name: datatest
+    github_id: shawnbrown/datatest
+    category: data-loading
+    pypi_id: datatest
+  - name: rows
+    github_id: turicas/rows
+    category: data-loading
+    pypi_id: rows
+  - name: dpark
+    github_id: douban/dpark
+    category: data-pipelines
+    labels: ["spark"]
+    pypi_id: dpark
+  - name: plotnine
+    github_id: has2k1/plotnine
+    category: data-viz
+    conda_id: conda-forge/plotnine
+    pypi_id: plotnine
+  - name: python-ternary
+    github_id: marcharper/python-ternary
+    category: data-viz
+    conda_id: conda-forge/python-ternary
+    pypi_id: python-ternary
+  - name: joypy
+    github_id: sbebo/joypy
+    category: data-viz
+    conda_id: conda-forge/joypy
+    pypi_id: joypy
+  - name: Multicore-TSNE
+    github_id: DmitryUlyanov/Multicore-TSNE
+    category: data-viz
+    labels: ["pytorch"]
+    conda_id: conda-forge/multicore-tsne
+    pypi_id: MulticoreTSNE
+  - name: data-validation
+    github_id: tensorflow/data-validation
+    category: data-viz
+    labels: ["tensorflow", "jupyter"]
+    pypi_id: tensorflow-data-validation
+  - name: lets-plot
+    github_id: JetBrains/lets-plot
+    category: data-viz
+    pypi_id: lets-plot
+  - name: pysolr
+    github_id: django-haystack/pysolr
+    category: db-clients
+    conda_id: conda-forge/pysolr
+    pypi_id: pysolr
+  - name: petastorm
+    github_id: uber/petastorm
+    category: distributed-ml
+    pypi_id: petastorm
+  - name: ta
+    github_id: bukosabino/ta
+    category: financial-data
+    pypi_id: ta
+  - name: stockstats
+    github_id: jealous/stockstats
+    category: financial-data
+    pypi_id: stockstats
+  - name: optunity
+    github_id: claesenm/optunity
+    category: hyperopt
+    license: BSD-3-Clause
+    pypi_id: optunity
+  - name: mahotas
+    github_id: luispedro/mahotas
+    category: image
+    conda_id: conda-forge/mahotas
+    pypi_id: mahotas
+  - name: vidgear
+    github_id: abhiTronix/vidgear
+    category: image
+    pypi_id: vidgear
+  - name: vit-pytorch
+    github_id: lucidrains/vit-pytorch
+    category: image
+    labels: ["pytorch"]
+    pypi_id: vit-pytorch
+  - name: CellProfiler
+    github_id: CellProfiler/CellProfiler
+    category: image
+    pypi_id: cellprofiler
+  - name: arviz
+    github_id: arviz-devs/arviz
+    category: interpretability
+    conda_id: conda-forge/arviz
+    pypi_id: arviz
+  - name: dtreeviz
+    github_id: parrt/dtreeviz
+    category: interpretability
+    pypi_id: dtreeviz
+  - name: fairlearn
+    github_id: fairlearn/fairlearn
+    category: interpretability
+    labels: ["sklearn"]
+    conda_id: conda-forge/fairlearn
+    pypi_id: fairlearn
+  - name: random-forest-importances
+    github_id: parrt/random-forest-importances
+    category: interpretability
+    labels: ["sklearn"]
+    pypi_id: rfpimp
+  - name: explainerdashboard
+    github_id: oegedijk/explainerdashboard
+    category: interpretability
+    pypi_id: explainerdashboard
+  - name: Hub
+    github_id: activeloopai/Hub
+    category: ml-experiments
+    conda_id: conda-forge/hub
+    pypi_id: hub
+  - name: wandb client
+    github_id: wandb/client
+    category: ml-experiments
+    pypi_id: wandb
+  - name: livelossplot
+    github_id: stared/livelossplot
+    category: ml-experiments
+    labels: ["jupyter"]
+    pypi_id: livelossplot
+  - name: lore
+    github_id: instacart/lore
+    category: ml-experiments
+    pypi_id: lore
+  - name: hiddenlayer
+    github_id: waleedka/hiddenlayer
+    category: ml-experiments
+    labels: ["pytorch", "tensorflow", "jupyter"]
+    pypi_id: hiddenlayer
+  - name: quinn
+    github_id: MrPowers/quinn
+    category: ml-experiments
+    labels: ["spark"]
+    pypi_id: quinn
+  - name: Lasagne
+    github_id: Lasagne/Lasagne
+    category: ml-frameworks
+    pypi_id: lasagne
+  - name: fklearn
+    github_id: nubank/fklearn
+    category: ml-frameworks
+    pypi_id: fklearn
+  - name: tensorflow-upstream
+    github_id: ROCmSoftwarePlatform/tensorflow-upstream
+    category: ml-frameworks
+    labels: ["tensorflow"]
+    pypi_id: "tensorflow-rocm"
+  - name: neon
+    github_id: NervanaSystems/neon
+    category: ml-frameworks
+    pypi_id: nervananeon
+  - name: vaderSentiment
+    github_id: cjhutto/vaderSentiment
+    category: nlp
+    pypi_id: vadersentiment
+  - name: gpt-2-simple
+    github_id: minimaxir/gpt-2-simple
+    category: nlp
+    labels: ["tensorflow"]
+    pypi_id: gpt-2-simple
+  - name: pyclustering
+    github_id: annoviko/pyclustering
+    category: others
+    conda_id: conda-forge/pyclustering
+    pypi_id: pyclustering
+  - name: causalml
+    github_id: uber/causalml
+    category: others
+    pypi_id: causalml
+  - name: TabPy
+    github_id: tableau/TabPy
+    category: others
+    pypi_id: tabpy
+  - name: pycm
+    github_id: sepandhaghighi/pycm
+    category: others
+    pypi_id: pycm
+  - name: minisom
+    github_id: JustGlowing/minisom
+    category: others
+    license: CC-BY-3.0
+    pypi_id: minisom
+  - name: impyute
+    github_id: eltonlaw/impyute
+    category: others
+    pypi_id: impyute
+  - name: rrcf
+    github_id: kLabUM/rrcf
+    category: others
+    pypi_id: rrcf
+  - name: hmmlearn
+    github_id: hmmlearn/hmmlearn
+    category: probabilistics
+    labels: ["sklearn"]
+    conda_id: conda-forge/hmmlearn
+    pypi_id: hmmlearn
+  - name: patsy
+    github_id: pydata/patsy
+    category: probabilistics
+    conda_id: conda-forge/patsy
+    pypi_id: patsy
+  - name: filterpy
+    github_id: rlabbe/filterpy
+    category: probabilistics
+    conda_id: conda-forge/filterpy
+    pypi_id: filterpy
+  - name: SALib
+    github_id: SALib/SALib
+    category: probabilistics
+    conda_id: conda-forge/salib
+    pypi_id: salib
+  - name: pingouin
+    github_id: raphaelvallat/pingouin
+    category: probabilistics
+    conda_id: conda-forge/pingouin
+    pypi_id: pingouin
+  - name: scikit-posthocs
+    github_id: maximtrp/scikit-posthocs
+    category: probabilistics
+    labels: ["sklearn"]
+    pypi_id: scikit-posthocs
+  - name: pytorch-optimizer
+    github_id: jettify/pytorch-optimizer
+    category: pytorch-utils
+    labels: ["pytorch"]
+    pypi_id: torch_optimizer
+  - name: fastFM
+    github_id: ibayer/fastFM
+    category: recommender-systems
+    pypi_id: fastfm
+  - name: baselines
+    github_id: openai/baselines
+    category: reinforcement-learning
+    pypi_id: baselines
+  - name: sklearn-crfsuite
+    github_id: TeamHG-Memex/sklearn-crfsuite
+    category: sklearn-utils
+    labels: ["sklearn"]
+    pypi_id: sklearn-crfsuite
+  - name: combo
+    github_id: yzhao062/combo
+    category: sklearn-utils
+    labels: ["sklearn", "xgboost"]
+    pypi_id: combo
+  - name: scikit-opt
+    github_id: guofei9987/scikit-opt
+    category: sklearn-utils
+    labels: ["sklearn"]
+    pypi_id: scikit-opt
+  - name: scikit-lego
+    github_id: koaning/scikit-lego
+    category: sklearn-utils
+    labels: ["sklearn"]
+    conda_id: conda-forge/scikit-lego
+    pypi_id: scikit-lego
+  - name: fancyimpute
+    github_id: iskandr/fancyimpute
+    category: sklearn-utils
+    labels: ["sklearn"]
+    pypi_id: fancyimpute
+  - name: skope-rules
+    github_id: scikit-learn-contrib/skope-rules
+    category: sklearn-utils
+    labels: ["sklearn"]
+    pypi_id: skope-rules
+  - name: iterative-stratification
+    github_id: trent-b/iterative-stratification
+    category: sklearn-utils
+    labels: ["sklearn"]
+    pypi_id: iterative-stratification
+  - name: scikit-tda
+    github_id: scikit-tda/scikit-tda
+    category: sklearn-utils
+    labels: ["sklearn"]
+    pypi_id: scikit-tda
+  - name: tffm
+    github_id: geffy/tffm
+    category: tensorflow-utils
+    labels: ["tensorflow"]
+    pypi_id: tffm
+  - name: pmdarima
+    github_id: alkaline-ml/pmdarima
+    category: time-series-data
+    pypi_id: pmdarima
+  - name: pyts
+    github_id: johannfaouzi/pyts
+    category: time-series-data
+    conda_id: conda-forge/pyts
+    pypi_id: pyts
+  - name: pydlm
+    github_id: wwrechard/pydlm
+    category: time-series-data
+    pypi_id: pydlm
+  - name: matrixprofile-ts
+    github_id: target/matrixprofile-ts
+    category: time-series-data
+    pypi_id: matrixprofile-ts
