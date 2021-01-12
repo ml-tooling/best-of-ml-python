@@ -1,4 +1,4 @@
-# Based on https://github.com/best-of-lists/best-of-update-action/blob/v0.5.3/workflows/update-best-of-list.yml
+# Based on https://github.com/best-of-lists/best-of-update-action/blob/v0.6.1/workflows/update-best-of-list.yml
 name: update-best-of-list
 
 on:
@@ -8,7 +8,7 @@ on:
         description: "Version to use for this update"
         required: false
   schedule:
-    - cron: "0 18 * * 4" # Every thursday at 6pm
+    - cron: "0 14 * * 4" # Every thursday at 2pm
 
 env:
   BRANCH_PREFIX: "update/"
@@ -44,7 +44,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: update-best-of-list
-        uses: best-of-lists/best-of-update-action@v0.5.3
+        uses: best-of-lists/best-of-update-action@v0.6.1
         with:
           libraries_key: ${{ secrets.LIBRARIES_KEY }}
           github_key: ${{ secrets.GITHUB_TOKEN }}
