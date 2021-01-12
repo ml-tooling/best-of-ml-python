@@ -3732,6 +3732,7 @@ projects:
     category: data-loading
   - name: best-of-web-python - Web Scraping
     github_id: ml-tooling/best-of-web-python
+    description: "Collection of web-scraping and crawling libraries."
     resource: True
     category: web-scraping
   - name: m2cgen
@@ -4237,3 +4238,82 @@ projects:
     github_id: firmai/atspy
     category: time-series-data
     pypi_id: atspy
+  - name: cartopy
+    github_id: SciTools/cartopy
+    category: data-viz
+    conda_id: conda-forge/cartopy
+    pypi_id: cartopy
+  - name: joblib
+    github_id: joblib/joblib
+    category: data-pipelines
+    conda_id: conda-forge/joblib
+    pypi_id: joblib
+  - name: google-cloud-bigtable
+    github_id: googleapis/python-bigtable
+    category: db-clients
+    conda_id: conda-forge/google-cloud-bigtable
+    pypi_id: google-cloud-bigtable
+  - name: azure-storage-blob
+    github_id: Azure/azure-sdk-for-python
+    category: db-clients
+    conda_id: conda-forge/azure-storage-blob
+    pypi_id: azure-storage-blob
+  - name: pygsheets
+    github_id: nithinmurali/pygsheets
+    category: db-clients
+    pypi_id: pygsheets
+  - name: PyPika
+    github_id: kayak/pypika
+    category: db-clients
+    pypi_id: pypika
+  - name: redis-py-cluster
+    github_id: grokzen/redis-py-cluster
+    category: db-clients
+    pypi_id: redis-py-cluster
+  - name: SQLAlchemy-Utils
+    github_id: kvesteri/sqlalchemy-utils
+    category: db-clients
+    conda_id: conda-forge/sqlalchemy-utils
+    pypi_id: sqlalchemy-utils
+  - name: s3transfer
+    github_id: boto/s3transfer
+    category: db-clients
+    conda_id: conda-forge/s3transfer
+    pypi_id: s3transfer
+  - name: findspark
+    github_id: minrk/findspark
+    category: others
+    labels: ["spark"]
+    conda_id: conda-forge/findspark
+    pypi_id: findspark
+  - name: Keras-Preprocessing
+    github_id: keras-team/keras-preprocessing
+    category: tensorflow-utilities
+    labels: ["tensorflow"]
+    conda_id: conda-forge/keras-preprocessing
+    pypi_id: keras-preprocessing
+  - name: snowballstemmer
+    github_id: snowballstem/snowball
+    category: nlp
+    conda_id: conda-forge/snowballstemmer
+    pypi_id: snowballstemmer
+  - name: Shapely
+    github_id: Toblerity/Shapely
+    category: geospatial-data
+    conda_id: conda-forge/shapely
+    pypi_id: shapely
+  - name: rq
+    github_id: rq/rq
+    category: data-pipelines
+    conda_id: conda-forge/rq
+    pypi_id: rq
+  - name: s3fs
+    github_id: dask/s3fs
+    category: db-clients
+    conda_id: conda-forge/s3fs
+    pypi_id: s3fs
+  - name: PynamoDB
+    github_id: pynamodb/PynamoDB
+    category: db-clients
+    conda_id: conda-forge/pynamodb
+    pypi_id: pynamodb
