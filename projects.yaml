@@ -700,189 +700,6 @@ projects:
     pypi_id: onnxt5
     github_id: abelriboulot/onnxt5
     category: nlp
-  # Database Clients
-  - name: mongo-connector
-    pypi_id: mongo-connector
-    github_id: yougov/mongo-connector
-    category: db-clients
-  - name: SuperSQLite
-    pypi_id: supersqlite
-    github_id: plasticityai/supersqlite
-    category: db-clients
-  - name: peewee
-    pypi_id: peewee
-    github_id: coleifer/peewee
-    conda_id: conda-forge/peewee
-    category: db-clients
-  - name: dataset
-    pypi_id: dataset
-    github_id: pudo/dataset
-    category: db-clients
-  - name: minio
-    pypi_id: minio
-    github_id: minio/minio-py
-    conda_id: conda-forge/minio
-    category: db-clients
-  - name: pymongo
-    pypi_id: pymongo
-    github_id: mongodb/mongo-python-driver
-    conda_id: conda-forge/pymongo
-    category: db-clients
-  - name: db.py
-    pypi_id: db.py
-    github_id: yhat/db.py
-    category: db-clients
-  - name: elasticsearch
-    pypi_id: elasticsearch
-    github_id: elastic/elasticsearch-py
-    conda_id: conda-forge/elasticsearch
-    category: db-clients
-  - name: Elasticsearch DSL
-    pypi_id: elasticsearch-dsl
-    github_id: elastic/elasticsearch-dsl-py
-    category: db-clients
-  - name: neo4j-driver
-    pypi_id: neo4j-driver
-    github_id: neo4j/neo4j-python-driver
-    category: db-clients
-  - name: py2neo
-    pypi_id: py2neo
-    github_id: technige/py2neo
-    conda_id: conda-forge/py2neo
-    category: db-clients
-  - name: lazydata
-    pypi_id: lazydata
-    github_id: rstojnic/lazydata
-    category: db-clients
-  - name: redis
-    pypi_id: redis
-    github_id: andymccurdy/redis-py
-    category: db-clients
-  - name: cx-Oracle
-    pypi_id: cx-Oracle
-    github_id: oracle/python-cx_Oracle
-    category: db-clients
-  - name: kafka-python
-    pypi_id: kafka-python
-    github_id: dpkp/kafka-python
-    conda_id: conda-forge/kafka-python
-    category: db-clients
-  - name: confluent-kafka-python
-    pypi_id: confluent-kafka
-    github_id: confluentinc/confluent-kafka-python
-    category: db-clients
-  - name: PyMySQL
-    pypi_id: PyMySQL
-    github_id: PyMySQL/PyMySQL
-    conda_id: conda-forge/pymysql
-    category: db-clients
-  - name: boto3
-    pypi_id: boto3
-    github_id: boto/boto3
-    conda_id: conda-forge/boto3
-    category: db-clients
-  - name: libcloud
-    pypi_id: apache-libcloud
-    github_id: apache/libcloud
-    category: db-clients
-  - name: google-cloud-storage
-    pypi_id: google-cloud-storage
-    github_id: googleapis/google-cloud-python
-    conda_id: conda-forge/google-cloud-storage
-    category: db-clients
-  - name: filedepot
-    pypi_id: filedepot
-    github_id: amol-/depot
-    category: db-clients
-  - name: Prometheus Client
-    pypi_id: prometheus_client
-    github_id: prometheus/client_python
-    conda_id: conda-forge/prometheus_client
-    category: db-clients
-  - name: cloudant
-    pypi_id: cloudant
-    github_id: cloudant/python-cloudant
-    conda_id: conda-forge/cloudant
-    category: db-clients
-  - name: influxdb
-    pypi_id: influxdb
-    github_id: influxdata/influxdb-python
-    conda_id: conda-forge/influxdb
-    category: db-clients
-  - name: pyodbc
-    pypi_id: pyodbc
-    github_id: mkleehammer/pyodbc
-    conda_id: conda-forge/pyodbc
-    category: db-clients
-  - name: pyhdb
-    pypi_id: pyhdb
-    github_id: SAP/pyhdb
-    category: db-clients
-  - name: SQLAlchemy
-    pypi_id: SQLAlchemy
-    github_id: sqlalchemy/sqlalchemy
-    conda_id: conda-forge/sqlalchemy
-    category: db-clients
-  - name: AWS Data Wrangler
-    pypi_id: awswrangler
-    github_id: awslabs/aws-data-wrangler
-    labels: ["pandas"]
-    category: db-clients
-  - name: psycopg2
-    pypi_id: psycopg2
-    conda_id: psycopg2
-    github_id: psycopg/psycopg2
-    category: db-clients
-  - name: Records
-    pypi_id: records
-    github_id: kennethreitz42/records
-    conda_id: conda-forge/records
-    category: db-clients
-  - name: PugSQL
-    pypi_id: pugsql
-    github_id: mcfunley/pugsql
-    category: db-clients
-  - name: HappyBase
-    pypi_id: happybase
-    github_id: python-happybase/happybase
-    conda_id: conda-forge/happybase
-    category: db-clients
-  - name: Cassandra Driver
-    pypi_id: cassandra-driver
-    github_id: datastax/python-driver
-    conda_id: conda-forge/cassandra-driver
-    category: db-clients
-  - name: mysqlclient
-    pypi_id: mysqlclient
-    github_id: PyMySQL/mysqlclient
-    conda_id: conda-forge/mysqlclient
-    category: db-clients
-  - name: Motor
-    pypi_id: motor
-    github_id: mongodb/motor
-    conda_id: conda-forge/motor
-    category: db-clients
-  - name: Pony
-    pypi_id: pony
-    github_id: ponyorm/pony
-    conda_id: conda-forge/pony
-    category: db-clients
-  - name: Ibis
-    pypi_id: ibis-framework
-    github_id: ibis-project/ibis
-    conda_id: conda-forge/ibis-framework
-    category: db-clients # data containers or pipeline?
-  - name: pandas-gbq
-    pypi_id: pandas-gbq
-    github_id: pydata/pandas-gbq
-    conda_id: conda-forge/pandas-gbq
-    labels: ["pandas"]
-    category: db-clients
-  - name: Databases
-    pypi_id: databases
-    github_id: encode/databases
-    conda_id: conda-forge/databases
-    category: db-clients
   # Image Processing
   - name: Classy Vision
     github_id: facebookresearch/ClassyVision
@@ -3652,10 +3469,6 @@ projects:
     pypi_id: pretrainedmodels
     labels: ["pytorch"]
     category: pytorch-utils
-  - name: python-bigquery
-    github_id: googleapis/python-bigquery
-    pypi_id: google-cloud-bigquery
-    category: db-clients
   - name: Graphviz
     github_id: xflr6/graphviz
     pypi_id: graphviz
@@ -3697,10 +3510,6 @@ projects:
     github_id: hhatto/nude.py
     pypi_id: nudepy
     category: image
-  - name: Queries
-    github_id: gmr/queries
-    pypi_id: queries
-    category: db-clients
   - name: Norfair
     github_id: tryolabs/norfair
     pypi_id: norfair
@@ -3823,11 +3632,6 @@ projects:
     github_id: JetBrains/lets-plot
     category: data-viz
     pypi_id: lets-plot
-  - name: pysolr
-    github_id: django-haystack/pysolr
-    category: db-clients
-    conda_id: conda-forge/pysolr
-    pypi_id: pysolr
   - name: petastorm
     github_id: uber/petastorm
     category: distributed-ml
@@ -4248,38 +4052,6 @@ projects:
     category: data-pipelines
     conda_id: conda-forge/joblib
     pypi_id: joblib
-  - name: google-cloud-bigtable
-    github_id: googleapis/python-bigtable
-    category: db-clients
-    conda_id: conda-forge/google-cloud-bigtable
-    pypi_id: google-cloud-bigtable
-  - name: azure-storage-blob
-    github_id: Azure/azure-sdk-for-python
-    category: db-clients
-    conda_id: conda-forge/azure-storage-blob
-    pypi_id: azure-storage-blob
-  - name: pygsheets
-    github_id: nithinmurali/pygsheets
-    category: db-clients
-    pypi_id: pygsheets
-  - name: PyPika
-    github_id: kayak/pypika
-    category: db-clients
-    pypi_id: pypika
-  - name: redis-py-cluster
-    github_id: grokzen/redis-py-cluster
-    category: db-clients
-    pypi_id: redis-py-cluster
-  - name: SQLAlchemy-Utils
-    github_id: kvesteri/sqlalchemy-utils
-    category: db-clients
-    conda_id: conda-forge/sqlalchemy-utils
-    pypi_id: sqlalchemy-utils
-  - name: s3transfer
-    github_id: boto/s3transfer
-    category: db-clients
-    conda_id: conda-forge/s3transfer
-    pypi_id: s3transfer
   - name: findspark
     github_id: minrk/findspark
     category: others
@@ -4307,13 +4079,8 @@ projects:
     category: data-pipelines
     conda_id: conda-forge/rq
     pypi_id: rq
-  - name: s3fs
-    github_id: dask/s3fs
+  - name: best-of-python - DB Clients
+    github_id: ml-tooling/best-of-web-python
+    description: "Collection of database clients for python."
+    resource: True
     category: db-clients
-    conda_id: conda-forge/s3fs
-    pypi_id: s3fs
-  - name: PynamoDB
-    github_id: pynamodb/PynamoDB
-    category: db-clients
-    conda_id: conda-forge/pynamodb
-    pypi_id: pynamodb
