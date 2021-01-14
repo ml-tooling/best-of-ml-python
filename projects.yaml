@@ -4088,3 +4088,9 @@ projects:
     pypi_id: gradio
     github_id: gradio-app/gradio
     description: "Wrap UIs around any model, share with anyone."
+  - name: FiftyOne
+    pypi_id: fiftyone
+    github_id: voxel51/fiftyone
+    description: "Visualize, create, and debug image and video datasets and model predictions."
+    category: data-viz
+    labels: ["tensorflow", "pytorch", "jupyter"]
