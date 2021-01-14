@@ -1127,6 +1127,10 @@ projects:
     github_id: TeamHG-Memex/eli5
     conda_id: conda-forge/eli5
     category: interpretability
+  - name: imodels
+    pypi_id: imodels
+    github_id: csinva/imodels
+    category: interpretability
   - name: shap
     pypi_id: shap
     github_id: slundberg/shap
