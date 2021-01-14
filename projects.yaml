@@ -4084,3 +4084,7 @@ projects:
     description: "Collection of database clients for python."
     resource: True
     category: db-clients
+  - name: Gradio
+    pypi_id: gradio
+    github_id: gradio-app/gradio
+    description: "Wrap UIs around any model, share with anyone."
