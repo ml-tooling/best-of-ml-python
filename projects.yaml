@@ -4098,3 +4098,9 @@ projects:
     description: "Visualize, create, and debug image and video datasets and model predictions."
     category: data-viz
     labels: ["tensorflow", "pytorch", "jupyter"]
+  - name: celer
+    pypi_id: celer
+    github_id: mathurinm/celer
+    description: "Fast sklearn solvers for sparse problems (group Lasso, adaptive Lasso)"
+    labels: ["sklearn"]
+    category: sklearn-utils
