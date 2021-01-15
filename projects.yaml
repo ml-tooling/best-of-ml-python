@@ -4104,3 +4104,9 @@ projects:
     description: "Fast sklearn solvers for sparse problems (group Lasso, adaptive Lasso)"
     labels: ["sklearn"]
     category: sklearn-utils
+  - name: sentence-transformers
+    pypi_id: sentence-transformers
+    github_id: UKPLab/sentence-transformers
+    description: "Multilingual Sentence Embeddings using BERT / RoBERTa / XLM-RoBERTa & Co. with PyTorch"
+    category: nlp
+    labels: ["bert", "xlnet", "pytorch"]
