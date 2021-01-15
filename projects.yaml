@@ -4098,3 +4098,9 @@ projects:
     description: "Visualize, create, and debug image and video datasets and model predictions."
     category: data-viz
     labels: ["tensorflow", "pytorch", "jupyter"]
+  - name: sentence-transformers
+    pypi_id: sentence-transformers
+    github_id: UKPLab/sentence-transformers
+    description: "Multilingual Sentence Embeddings using BERT / RoBERTa / XLM-RoBERTa & Co. with PyTorch"
+    category: nlp
+    labels: ["bert", "xlnet", "pytorch"]
