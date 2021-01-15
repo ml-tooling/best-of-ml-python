@@ -164,6 +164,12 @@ projects:
     docs_url: https://keras.io
     labels: ["tensorflow"]
     category: ml-frameworks
+  - name: Caer
+    pypi_id: caer
+    github_id: jasmcaus/caer
+    docs_url: https://caer.rtfd.io
+    description: "A lightweight Computer Vision library. Scale your models, not boilerplate."
+    category: image
   - name: XGBoost
     pypi_id: xgboost
     github_id: dmlc/xgboost
@@ -701,6 +707,12 @@ projects:
     github_id: abelriboulot/onnxt5
     category: nlp
   # Image Processing
+  - name: Caer
+    pypi_id: caer
+    github_id: jasmcaus/caer
+    docs_url: https://caer.rtfd.io
+    description: "A lightweight Computer Vision library. Scale your models, not boilerplate."
+    category: image
   - name: Classy Vision
     github_id: facebookresearch/ClassyVision
     pypi_id: classy_vision
