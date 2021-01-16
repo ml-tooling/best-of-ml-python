@@ -701,6 +701,12 @@ projects:
     github_id: abelriboulot/onnxt5
     category: nlp
   # Image Processing
+  - name: Caer
+    pypi_id: caer
+    github_id: jasmcaus/caer
+    docs_url: https://caer.rtfd.io
+    description: "A lightweight Computer Vision library. Scale your models, not boilerplate."
+    category: image
   - name: Classy Vision
     github_id: facebookresearch/ClassyVision
     pypi_id: classy_vision
@@ -3404,7 +3410,6 @@ projects:
     pypi_id: efficientnet-pytorch
     labels: ["pytorch"]
     category: pytorch-utils
-
   - name: dlib
     github_id: davisking/dlib
     pypi_id: dlib
@@ -3427,10 +3432,6 @@ projects:
     github_id: inducer/pyopencl
     pypi_id: pyopencl
     conda_id: conda-forge/pyopencl
-  - name: caer
-    github_id: jasmcaus/caer
-    pypi_id: caer
-    category: image
   - name: python-soundfile
     github_id: bastibe/python-soundfile
     pypi_id: soundfile
