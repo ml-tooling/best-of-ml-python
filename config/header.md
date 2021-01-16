@@ -22,8 +22,8 @@ This curated list contains {project_count} awesome open-source projects with a t
 ---
 
 <p align="center">
-    📫&nbsp; Subscribe to our <a href="https://mltooling.substack.com/subscribe">weekly newsletter</a> for updates on the best machine-learning libraries and tools.<br>
-    <i>Get notified on trending projects, new additions, detailed comparisons, and more!</i>
+     🧙‍♂️&nbsp; Discover other <a href="https://best-of.org">best-of lists</a> or create <a href="https://github.com/best-of-lists/best-of/blob/main/create-best-of-list.md">your own</a>.<br>
+    📫&nbsp; Subscribe to our <a href="https://mltooling.substack.com/subscribe">newsletter</a> for updates and trending projects.
 </p>
 
 ---
