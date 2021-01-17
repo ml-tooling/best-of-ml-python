@@ -244,6 +244,11 @@ projects:
     labels: ["spark"]
     description: "Apache Spark Python API."
     category: ml-frameworks
+  - name: PyFlink
+    pypi_id: apache-flink
+    github_id: apache/flink
+    description: "Apache Flink Python API."
+    category: ml-frameworks
   - name: ktrain
     pypi_id: ktrain
     github_id: amaiya/ktrain
