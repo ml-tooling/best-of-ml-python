@@ -2458,6 +2458,11 @@ projects:
   - name: Recommenders
     github_id: microsoft/recommenders
     category: recommender-systems
+  - name: Cornac
+    pypi_id: cornac
+    github_id: PreferredAI/cornac
+    conda_id: conda-forge/cornac
+    category: recommender-systems
   # Audio Processing
   - name: librosa
     pypi_id: librosa
