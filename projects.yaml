@@ -366,6 +366,11 @@ projects:
     github_id: google/flax
     labels: ["jax"]
     category: ml-frameworks
+  - name: Objax
+    pypi_id: objax
+    github_id: google/objax
+    labels: ["jax"]
+    category: ml-frameworks
   - name: Haiku
     github_id: deepmind/dm-haiku
     category: ml-frameworks
