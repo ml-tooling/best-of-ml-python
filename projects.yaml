@@ -4126,3 +4126,8 @@ projects:
     description: "Multilingual Sentence Embeddings using BERT / RoBERTa / XLM-RoBERTa & Co. with PyTorch"
     category: nlp
     labels: ["bert", "xlnet", "pytorch"]
+  - name: pyRDF2Vec
+    pypi_id: pyrdf2vec
+    github_id: IBCNServices/pyRDF2Vec
+    description: "Python Implementation and Extension of RDF2Vec"
+    category: graph
