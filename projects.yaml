@@ -4129,4 +4129,5 @@ projects:
   - name: pyRDF2Vec
     pypi_id: pyrdf2vec
     github_id: IBCNServices/pyRDF2Vec
+    description: "Python Implementation and Extension of RDF2Vec"
     category: graph
