@@ -4058,6 +4058,41 @@ projects:
     category: sklearn-utils
     labels: ["sklearn"]
     pypi_id: skggm
+  - name: rq
+    github_id: rq/rq
+    category: data-pipelines
+    conda_id: conda-forge/rq
+    pypi_id: rq
+  - name: best-of-python - DB Clients
+    github_id: ml-tooling/best-of-web-python
+    description: "Collection of database clients for python."
+    resource: True
+    category: db-clients
+  - name: Gradio
+    pypi_id: gradio
+    github_id: gradio-app/gradio
+    description: "Wrap UIs around any model, share with anyone."
+  - name: FiftyOne
+    pypi_id: fiftyone
+    github_id: voxel51/fiftyone
+    description: "Visualize, create, and debug image and video datasets and model predictions."
+    category: data-viz
+    labels: ["tensorflow", "pytorch", "jupyter"]
+  - name: celer
+    pypi_id: celer
+    github_id: mathurinm/celer
+    labels: ["sklearn"]
+    category: sklearn-utils
+  - name: sentence-transformers
+    pypi_id: sentence-transformers
+    github_id: UKPLab/sentence-transformers
+    category: nlp
+    labels: ["pytorch"]
+  - name: pyRDF2Vec
+    pypi_id: pyrdf2vec
+    github_id: IBCNServices/pyRDF2Vec
+    description: "Python Implementation and Extension of RDF2Vec"
+    category: graph
   - name: atspy
     github_id: firmai/atspy
     category: time-series-data
@@ -4094,40 +4129,15 @@ projects:
     category: geospatial-data
     conda_id: conda-forge/shapely
     pypi_id: shapely
-  - name: rq
-    github_id: rq/rq
-    category: data-pipelines
-    conda_id: conda-forge/rq
-    pypi_id: rq
-  - name: best-of-python - DB Clients
-    github_id: ml-tooling/best-of-web-python
-    description: "Collection of database clients for python."
-    resource: True
-    category: db-clients
-  - name: Gradio
-    pypi_id: gradio
-    github_id: gradio-app/gradio
-    description: "Wrap UIs around any model, share with anyone."
-  - name: FiftyOne
-    pypi_id: fiftyone
-    github_id: voxel51/fiftyone
-    description: "Visualize, create, and debug image and video datasets and model predictions."
-    category: data-viz
-    labels: ["tensorflow", "pytorch", "jupyter"]
-  - name: celer
-    pypi_id: celer
-    github_id: mathurinm/celer
-    description: "Fast sklearn solvers for sparse problems (group Lasso, adaptive Lasso)"
-    labels: ["sklearn"]
-    category: sklearn-utils
-  - name: sentence-transformers
-    pypi_id: sentence-transformers
-    github_id: UKPLab/sentence-transformers
-    description: "Multilingual Sentence Embeddings using BERT / RoBERTa / XLM-RoBERTa & Co. with PyTorch"
-    category: nlp
-    labels: ["bert", "xlnet", "pytorch"]
-  - name: pyRDF2Vec
-    pypi_id: pyrdf2vec
-    github_id: IBCNServices/pyRDF2Vec
-    description: "Python Implementation and Extension of RDF2Vec"
-    category: graph
+  - name: Vulkan Kompute
+    github_id: EthicalML/vulkan-kompute
+    category: gpu-utilities
+    license: Apache-2.0
+    pypi_id: kp
+  - name: pydeck
+    github_id: visgl/deck.gl
+    category: geospatial-data
+    pypi_id: pydeck
+    npm_id: deck.gl
+    labels: ["jupyter"]
+    conda_id: conda-forge/pydeck
