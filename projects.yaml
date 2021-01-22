@@ -11,6 +11,7 @@ configuration:
       "BSD-2-Clause",
       "ISC",
       "MPL-2.0",
+      "LGPL-2.1"
     ]
   markdown_header_file: "config/header.md"
   markdown_footer_file: "config/footer.md"
@@ -4149,3 +4150,9 @@ projects:
     npm_id: deck.gl
     labels: ["jupyter"]
     conda_id: conda-forge/pydeck
+  - name: D-Tale
+    pypi_id: dtale
+    github_id: man-group/dtale
+    labels: ["pandas", "jupyter"]
+    license: LGPL-2.1
+    category: data-viz
