@@ -4156,3 +4156,4 @@ projects:
     labels: ["pandas", "jupyter"]
     license: LGPL-2.1
     category: data-viz
+    conda_id: conda-forge/dtale
