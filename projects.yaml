@@ -4073,7 +4073,8 @@ projects:
     conda_id: conda-forge/rq
     pypi_id: rq
   - name: best-of-python - DB Clients
-    github_id: ml-tooling/best-of-web-python
+    github_id: ml-tooling/best-of-python
+    homepage: https://github.com/ml-tooling/best-of-python#database-clients
     description: "Collection of database clients for python."
     resource: True
     category: db-clients
