@@ -4158,3 +4158,7 @@ projects:
     license: LGPL-2.1
     category: data-viz
     conda_id: conda-forge/dtale
+  - name: Mozart
+    github_id: aashrafh/Mozart
+    category: ocr
+    labels: ["sklearn"]
