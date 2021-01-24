@@ -397,7 +397,7 @@ projects:
     pypi_id: jina
     github_id: jina-ai/jina
     dockerhub_id: jinaai/jina
-    category: nlp
+    category: ml-frameworks
   - name: Texthero
     pypi_id: texthero
     github_id: jbesomi/texthero
