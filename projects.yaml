@@ -4167,3 +4167,9 @@ projects:
     github_id: aashrafh/Mozart
     category: ocr
     labels: ["sklearn"]
+  - name: CausalNex
+    pypi_id: causalnex
+    labels: ["pytorch", "sklearn"]
+    github_id: quantumblacklabs/causalnex
+    category: interpretability
+    license: Apache-2.0
