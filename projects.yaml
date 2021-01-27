@@ -2917,6 +2917,11 @@ projects:
     github_id: ironmussa/Optimus
     labels: ["spark"]
     category: data-pipelines
+  - name: Hub
+    github_id: activeloopai/Hub
+    pypi_id: hub
+    category: data-pipelines
+    labels: ["tensorflow", "pytorch"]
   # Probabilistic Methods
   - name: Baal
     pypi_id: baal
