@@ -11,6 +11,7 @@ configuration:
       "BSD-2-Clause",
       "ISC",
       "MPL-2.0",
+      "LGPL-2.1"
     ]
   markdown_header_file: "config/header.md"
   markdown_footer_file: "config/footer.md"
@@ -366,6 +367,11 @@ projects:
     github_id: google/flax
     labels: ["jax"]
     category: ml-frameworks
+  - name: Objax
+    pypi_id: objax
+    github_id: google/objax
+    labels: ["jax"]
+    category: ml-frameworks
   - name: Haiku
     github_id: deepmind/dm-haiku
     category: ml-frameworks
@@ -391,7 +397,7 @@ projects:
     pypi_id: jina
     github_id: jina-ai/jina
     dockerhub_id: jinaai/jina
-    category: nlp
+    category: ml-frameworks
   - name: Texthero
     pypi_id: texthero
     github_id: jbesomi/texthero
@@ -2746,6 +2752,14 @@ projects:
     conda_id: conda-forge/pandas-datareader
     labels: ["pandas"]
     category: data-loading
+  - name: openpyxl
+    pypi_id: openpyxl
+    gitlab_id: "https://foss.heptapod.net/api/graphql::openpyxl/openpyxl"
+    conda_id: openpyxl
+    dockerhub_id: "openpyxl/openpyxl-ci"
+    docs_url: https://openpyxl.readthedocs.io/en/stable/
+    license: MIT
+    category: data-loading
   - name: TensorFlow Datasets
     pypi_id: tensorflow-datasets
     github_id: tensorflow/datasets
@@ -2903,6 +2917,11 @@ projects:
     github_id: ironmussa/Optimus
     labels: ["spark"]
     category: data-pipelines
+  - name: Hub
+    github_id: activeloopai/Hub
+    pypi_id: hub
+    category: data-pipelines
+    labels: ["tensorflow", "pytorch"]
   # Probabilistic Methods
   - name: Baal
     pypi_id: baal
@@ -4053,6 +4072,42 @@ projects:
     category: sklearn-utils
     labels: ["sklearn"]
     pypi_id: skggm
+  - name: rq
+    github_id: rq/rq
+    category: data-pipelines
+    conda_id: conda-forge/rq
+    pypi_id: rq
+  - name: best-of-python - DB Clients
+    github_id: ml-tooling/best-of-python
+    homepage: https://github.com/ml-tooling/best-of-python#database-clients
+    description: "Collection of database clients for python."
+    resource: True
+    category: db-clients
+  - name: Gradio
+    pypi_id: gradio
+    github_id: gradio-app/gradio
+    description: "Wrap UIs around any model, share with anyone."
+  - name: FiftyOne
+    pypi_id: fiftyone
+    github_id: voxel51/fiftyone
+    description: "Visualize, create, and debug image and video datasets and model predictions."
+    category: data-viz
+    labels: ["tensorflow", "pytorch", "jupyter"]
+  - name: celer
+    pypi_id: celer
+    github_id: mathurinm/celer
+    labels: ["sklearn"]
+    category: sklearn-utils
+  - name: sentence-transformers
+    pypi_id: sentence-transformers
+    github_id: UKPLab/sentence-transformers
+    category: nlp
+    labels: ["pytorch"]
+  - name: pyRDF2Vec
+    pypi_id: pyrdf2vec
+    github_id: IBCNServices/pyRDF2Vec
+    description: "Python Implementation and Extension of RDF2Vec"
+    category: graph
   - name: atspy
     github_id: firmai/atspy
     category: time-series-data
@@ -4089,35 +4144,32 @@ projects:
     category: geospatial-data
     conda_id: conda-forge/shapely
     pypi_id: shapely
-  - name: rq
-    github_id: rq/rq
-    category: data-pipelines
-    conda_id: conda-forge/rq
-    pypi_id: rq
-  - name: best-of-python - DB Clients
-    github_id: ml-tooling/best-of-web-python
-    description: "Collection of database clients for python."
-    resource: True
-    category: db-clients
-  - name: Gradio
-    pypi_id: gradio
-    github_id: gradio-app/gradio
-    description: "Wrap UIs around any model, share with anyone."
-  - name: FiftyOne
-    pypi_id: fiftyone
-    github_id: voxel51/fiftyone
-    description: "Visualize, create, and debug image and video datasets and model predictions."
+  - name: Vulkan Kompute
+    github_id: EthicalML/vulkan-kompute
+    category: gpu-utilities
+    license: Apache-2.0
+    pypi_id: kp
+  - name: pydeck
+    github_id: visgl/deck.gl
+    category: geospatial-data
+    pypi_id: pydeck
+    npm_id: deck.gl
+    labels: ["jupyter"]
+    conda_id: conda-forge/pydeck
+  - name: D-Tale
+    pypi_id: dtale
+    github_id: man-group/dtale
+    labels: ["pandas", "jupyter"]
+    license: LGPL-2.1
     category: data-viz
-    labels: ["tensorflow", "pytorch", "jupyter"]
-  - name: celer
-    pypi_id: celer
-    github_id: mathurinm/celer
-    description: "Fast sklearn solvers for sparse problems (group Lasso, adaptive Lasso)"
+    conda_id: conda-forge/dtale
+  - name: Mozart
+    github_id: aashrafh/Mozart
+    category: ocr
     labels: ["sklearn"]
-    category: sklearn-utils
-  - name: sentence-transformers
-    pypi_id: sentence-transformers
-    github_id: UKPLab/sentence-transformers
-    description: "Multilingual Sentence Embeddings using BERT / RoBERTa / XLM-RoBERTa & Co. with PyTorch"
-    category: nlp
-    labels: ["bert", "xlnet", "pytorch"]
+  - name: CausalNex
+    pypi_id: causalnex
+    labels: ["pytorch", "sklearn"]
+    github_id: quantumblacklabs/causalnex
+    category: interpretability
+    license: Apache-2.0
