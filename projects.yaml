@@ -1019,6 +1019,10 @@ projects:
     github_id: amueller/word_cloud
     conda_id: conda-forge/wordcloud
     category: data-viz
+  - name: data-describe
+    github_id: data-describe/data-describe
+    pypi_id: data-describe
+    category: data-viz
   - name: pandas-profiling
     pypi_id: pandas-profiling
     conda_id: conda-forge/pandas-profiling
@@ -1208,6 +1212,10 @@ projects:
     pypi_id: tensorflow-model-analysis
     github_id: tensorflow/model-analysis
     labels: ["tensorflow", "jupyter"]
+    category: interpretability
+  - name: bias-detector
+    pypi_id: bias-detector
+    github_id: intuit/bias-detector
     category: interpretability
   - name: TreeInterpreter
     pypi_id: treeinterpreter
