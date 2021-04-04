@@ -4185,3 +4185,7 @@ projects:
     pypi_id: bodywork-core
     github_id: bodywork-ml/bodywork-core
     category: data-pipelines
+  - name: scikit-opt
+    github_id: guofei9987/scikit-opt
+    pypi_id: scikit-opt
+    description: "Swarm Intelligence in Python."
