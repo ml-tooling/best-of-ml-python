@@ -4189,3 +4189,7 @@ projects:
     github_id: guofei9987/scikit-opt
     pypi_id: scikit-opt
     description: "Swarm Intelligence in Python."
+  - name: nnAudio
+    github_id: KinWaiCheuk/nnAudio
+    category: audio
+    pypi_id: nnAudio
