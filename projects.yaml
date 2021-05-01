@@ -4193,3 +4193,6 @@ projects:
     github_id: KinWaiCheuk/nnAudio
     category: audio
     pypi_id: nnAudio
+  - name: opyrator
+    github_id: ml-tooling/opyrator
+    pypi_id: opyrator
