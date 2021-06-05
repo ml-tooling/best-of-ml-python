@@ -4196,3 +4196,9 @@ projects:
   - name: opyrator
     github_id: ml-tooling/opyrator
     pypi_id: opyrator
+  - name: Activeloop
+      github_id: activeloopai/Hub
+      pypi_id: hub
+      conda_id: hub
+      labels: ["data-pipelines"]
+      category: ml-frameworks
