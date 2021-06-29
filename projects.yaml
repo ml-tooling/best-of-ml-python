@@ -2711,95 +2711,6 @@ projects:
     github_id: rapidsai/cusignal
     description: "GPU accelerated signal processing."
     category: gpu-utilities
-  # Data Loading & Extraction
-  - name: Tablib
-    pypi_id: tablib
-    github_id: jazzband/tablib
-    conda_id: conda-forge/tablib
-    category: data-loading
-  - name: python-magic
-    pypi_id: python-magic
-    github_id: ahupp/python-magic
-    conda_id: conda-forge/python-magic
-    category: data-loading
-  - name: SDV
-    pypi_id: sdv
-    github_id: sdv-dev/SDV
-    category: data-loading
-  - name: Intake
-    pypi_id: intake
-    github_id: intake/intake
-    conda_id: conda-forge/intake
-    category: data-loading
-  - name: csvkit
-    pypi_id: csvkit
-    github_id: wireservice/csvkit
-    conda_id: conda-forge/csvkit
-    category: data-loading
-  - name: snorkel
-    pypi_id: snorkel
-    github_id: snorkel-team/snorkel
-    conda_id: conda-forge/snorkel
-    category: data-loading
-  - name: pyexcel-xlsx
-    pypi_id: pyexcel-xlsx
-    github_id: pyexcel/pyexcel-xlsx
-    conda_id: conda-forge/pyexcel-xlsx
-    category: data-loading
-  - name: Faker
-    pypi_id: Faker
-    github_id: joke2k/faker
-    conda_id: conda-forge/faker
-    category: data-loading
-  - name: smart-open
-    pypi_id: smart-open
-    github_id: RaRe-Technologies/smart_open
-    category: data-loading
-  - name: pandas-datareader
-    pypi_id: pandas-datareader
-    github_id: pydata/pandas-datareader
-    conda_id: conda-forge/pandas-datareader
-    labels: ["pandas"]
-    category: data-loading
-  - name: openpyxl
-    pypi_id: openpyxl
-    gitlab_id: "https://foss.heptapod.net/api/graphql::openpyxl/openpyxl"
-    conda_id: openpyxl
-    dockerhub_id: "openpyxl/openpyxl-ci"
-    docs_url: https://openpyxl.readthedocs.io/en/stable/
-    license: MIT
-    category: data-loading
-  - name: TensorFlow Datasets
-    pypi_id: tensorflow-datasets
-    github_id: tensorflow/datasets
-    labels: ["tensorflow"]
-    category: data-loading
-  - name: textract
-    pypi_id: textract
-    github_id: deanmalmgren/textract
-    conda_id: conda-forge/textract
-    category: data-loading
-  - name: PDFMiner
-    pypi_id: pdfminer
-    conda_id: conda-forge/pdfminer
-    github_id: euske/pdfminer
-    category: data-loading
-  - name: xmltodict
-    pypi_id: xmltodict
-    github_id: martinblech/xmltodict
-    conda_id: conda-forge/xmltodict
-    category: data-loading
-  - name: Singer
-    pypi_id: singer-python
-    github_id: singer-io/getting-started
-    description: "Standard for moving data between databases, web APIs, files, queues, and just about anything else you can think of."
-    license: AGPL-3.0
-    category: data-loading
-  - name: xlrd
-    pypi_id: xlrd
-    github_id: python-excel/xlrd
-    conda_id: conda-forge/xlrd
-    category: data-loading
   # Data Pipelines & Streaming
   - name: Great Expectations
     pypi_id: great_expectations
@@ -3578,15 +3489,18 @@ projects:
     github_id: erikbern/ann-benchmarks
     resource: True
     category: nn-search
-  - name: Datasets
-    pypi_id: datasets
-    github_id: huggingface/datasets
-    category: data-loading
   - name: best-of-web-python - Web Scraping
     github_id: ml-tooling/best-of-web-python
+    homepage: https://github.com/ml-tooling/best-of-web-python#web-scraping--crawling
     description: "Collection of web-scraping and crawling libraries."
     resource: True
     category: web-scraping
+  - name: best-of-web-python - Data Extraction
+    github_id: ml-tooling/best-of-web-python
+    homepage: https://github.com/ml-tooling/best-of-web-python#data-loading--extraction
+    description: "Collection of data-loading and -extraction libraries."
+    resource: True
+    category: data-loading
   - name: m2cgen
     github_id: BayesWitnesses/m2cgen
     category: "model-serialisation"
@@ -3623,23 +3537,6 @@ projects:
     category: data-containers
     conda_id: conda-forge/bcolz
     pypi_id: bcolz
-  - name: tabulator-py
-    github_id: frictionlessdata/tabulator-py
-    category: data-loading
-    conda_id: conda-forge/tabulator-py
-    pypi_id: tabulator
-  - name: messytables
-    github_id: okfn/messytables
-    category: data-loading
-    pypi_id: messytables
-  - name: datatest
-    github_id: shawnbrown/datatest
-    category: data-loading
-    pypi_id: datatest
-  - name: rows
-    github_id: turicas/rows
-    category: data-loading
-    pypi_id: rows
   - name: dpark
     github_id: douban/dpark
     category: data-pipelines
@@ -4220,28 +4117,6 @@ projects:
     github_id: pola-rs/polars
     category: data-containers
     pypi_id: polars
-  - name: deepdish
-    github_id: uchicago-cs/deepdish
-    category: data-loading
-    conda_id: conda-forge/deepdish
-    pypi_id: deepdish
-  - name: camelot
-    github_id: camelot-dev/camelot
-    category: data-loading
-    pypi_id: camelot
-  - name: excalibur
-    github_id: camelot-dev/excalibur
-    category: data-loading
-    pypi_id: excalibur-py
-  - name: xlwings
-    github_id: xlwings/xlwings
-    category: data-loading
-    conda_id: conda-forge/xlwings
-    pypi_id: xlwings
-  - name: csvs-to-sqlite
-    github_id: simonw/csvs-to-sqlite
-    category: data-loading
-    pypi_id: csvs-to-sqlite
   - name: huey
     github_id: coleifer/huey
     category: data-pipelines
@@ -4491,3 +4366,8 @@ projects:
     github_id: linkedin/greykite
     category: time-series-data
     pypi_id: greykite
+  - name: TensorFlow Datasets
+    pypi_id: tensorflow-datasets
+    github_id: tensorflow/datasets
+    labels: ["tensorflow"]
+    category: tensorflow-utils
