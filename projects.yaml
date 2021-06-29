@@ -3495,9 +3495,9 @@ projects:
     description: "Collection of web-scraping and crawling libraries."
     resource: True
     category: web-scraping
-  - name: best-of-web-python - Data Extraction
-    github_id: ml-tooling/best-of-web-python
-    homepage: https://github.com/ml-tooling/best-of-web-python#data-loading--extraction
+  - name: best-of-python - Data Extraction
+    github_id: ml-tooling/best-of-python
+    homepage: https://github.com/ml-tooling/best-of-python#data-loading--extraction
     description: "Collection of data-loading and -extraction libraries."
     resource: True
     category: data-loading
