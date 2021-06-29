@@ -2942,7 +2942,8 @@ projects:
     category: probabilistics
   - name: Lea
     pypi_id: lea
-    bitbucket_id: uber/orbit
+    bitbucket_id: piedenis/lea
+    license: GPL-3.0
     category: probabilistics
   - name: pomegranate
     pypi_id: pomegranate
