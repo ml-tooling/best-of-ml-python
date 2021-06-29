@@ -1,5 +1,5 @@
 configuration:
-  min_stars: 150
+  min_stars: 300
   require_github: True
   max_trending_projects: 10
   allowed_licenses:
@@ -468,11 +468,6 @@ projects:
     github_id: flairNLP/flair
     labels: ["pytorch"]
     category: nlp
-  - name: pyahocorasick
-    pypi_id: pyahocorasick
-    github_id: WojciechMula/pyahocorasick
-    conda_id: conda-forge/pyahocorasick
-    category: nlp
   - name: ftfy
     pypi_id: ftfy
     github_id: LuminosoInsight/python-ftfy
@@ -486,11 +481,6 @@ projects:
     pypi_id: stanza
     github_id: stanfordnlp/stanza
     conda_id: stanfordnlp/stanza
-    category: nlp
-  - name: inflect
-    pypi_id: inflect
-    github_id: jaraco/inflect
-    conda_id: conda-forge/inflect
     category: nlp
   - name: transformers
     pypi_id: transformers
@@ -639,11 +629,6 @@ projects:
     pypi_id: textdistance
     github_id: life4/textdistance
     conda_id: conda-forge/textdistance
-    category: nlp
-  - name: phonenumbers
-    pypi_id: phonenumbers
-    github_id: daviddrysdale/python-phonenumbers
-    conda_id: conda-forge/phonenumbers
     category: nlp
   - name: Translate
     github_id: pytorch/translate
