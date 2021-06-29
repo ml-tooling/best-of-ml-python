@@ -3542,6 +3542,10 @@ projects:
     category: data-pipelines
     labels: ["spark"]
     pypi_id: dpark
+  - name: arq
+    github_id: samuelcolvin/arq
+    category: data-pipelines
+    pypi_id: arq
   - name: plotnine
     github_id: has2k1/plotnine
     category: data-viz
