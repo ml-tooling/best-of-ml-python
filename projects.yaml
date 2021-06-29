@@ -1928,6 +1928,13 @@ projects:
     github_id: keras-rl/keras-rl
     labels: ["tensorflow"]
     category: reinforcement-learning
+  - name: Maze
+    pypi_id: maze-rl
+    github_id: enlite-ai/maze
+    dockerhub_id: enliteai/maze
+    license: Custom
+    labels: ["pytorch"]
+    category: reinforcement-learning
   - name: ReAgent
     github_id: facebookresearch/ReAgent
     license: BSD-3-Clause
