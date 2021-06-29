@@ -2940,6 +2940,10 @@ projects:
     pypi_id: orbit-ml
     github_id: uber/orbit
     category: probabilistics
+  - name: Lea
+    pypi_id: lea
+    bitbucket_id: uber/orbit
+    category: probabilistics
   - name: pomegranate
     pypi_id: pomegranate
     github_id: jmschrei/pomegranate
