@@ -3620,11 +3620,6 @@ projects:
     github_id: oegedijk/explainerdashboard
     category: interpretability
     pypi_id: explainerdashboard
-  - name: Hub
-    github_id: activeloopai/Hub
-    category: ml-experiments
-    pypi_id: hub
-    labels: ["tensorflow", "pytorch"]
   - name: wandb client
     github_id: wandb/client
     category: ml-experiments
@@ -4082,7 +4077,6 @@ projects:
   - name: Activeloop
     github_id: activeloopai/Hub
     pypi_id: hub
-    conda_id: hub
     category: data-pipelines
   - name: textflint
     github_id: textflint/textflint
