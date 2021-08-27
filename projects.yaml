@@ -2822,6 +2822,11 @@ projects:
     github_id: hi-primus/optimus
     labels: ["spark"]
     category: data-pipelines
+  - name: whylogs
+    pypi_id: whylogs
+    github_id: whylabs/whylogs
+    description: "Open standard for end-to-end data and ML monitoring for any scale in any infrastructure."
+    category: data-pipelines
   # Probabilistic Methods
   - name: Baal
     pypi_id: baal
