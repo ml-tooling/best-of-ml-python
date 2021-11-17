@@ -4359,3 +4359,8 @@ projects:
     github_id: tensorflow/datasets
     labels: ["tensorflow"]
     category: tensorflow-utils
+  - name: TSFEL
+    github_id: fraunhoferportugal/tsfel
+    category: time-series-data
+    pypi_id: tsfel
+
