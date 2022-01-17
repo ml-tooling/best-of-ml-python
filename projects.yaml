@@ -105,6 +105,9 @@ categories:
   - category: "tensorflow-utils"
     title: "Tensorflow Utilities"
     subtitle: "Libraries that extend TensorFlow with additional capabilities."
+  - category: "jax-utils"
+    title: "Jax Utilities"
+    subtitle: "Libraries that extend Jax with additional capabilities."
   - category: "sklearn-utils"
     title: "Sklearn Utilities"
     subtitle: "Libraries that extend scikit-learn with additional capabilities."
@@ -143,6 +146,9 @@ labels:
   - label: "pandas"
     image: "https://git.io/JLy1S"
     description: "Pandas related project"
+  - label: "jax"
+    image: "https://jax.readthedocs.io/en/latest/_static/favicon.png"
+    description: "Jax related project"
 
 projects:
   - name: Tensorflow
