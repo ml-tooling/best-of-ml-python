@@ -4493,3 +4493,160 @@ projects:
     github_id: upgini/upgini
     pypi_id: upgini
     category: tabular
+  - name: TimeSide
+    github_id: Parisson/TimeSide
+    category: audio
+    pypi_id: TimeSide
+  - name: pandera
+    github_id: pandera-dev/pandera
+    category: data-containers
+    labels: ["pandas"]
+    conda_id: conda-forge/pandera-core
+    pypi_id: pandera
+  - name: docarray
+    github_id: jina-ai/docarray
+    category: data-containers
+    conda_id: conda-forge/docarray
+    pypi_id: docarray
+  - name: datajob
+    github_id: vincentclaes/datajob
+    category: data-pipelines
+    pypi_id: datajob
+  - name: SynapseML
+    github_id: microsoft/SynapseML
+    category: distributed-ml
+    pypi_id: synapseml
+  - name: mesh-transformer-jax
+    github_id: kingoflolz/mesh-transformer-jax
+    category: distributed-ml
+    labels: ["jax"]
+  - name: parallelformers
+    github_id: tunib-ai/parallelformers
+    category: distributed-ml
+    pypi_id: parallelformers
+    - name: FinQuant
+    github_id: fmilthaler/FinQuant
+    category: financial-data
+    pypi_id: FinQuant
+  - name: pyrtfolio
+    github_id: alvarobartt/pyrtfolio
+    category: financial-data
+    pypi_id: pyrtfolio
+  - name: prettymaps
+    github_id: marceloprates/prettymaps
+    category: geospatial-data
+    conda_id: conda-forge/prettymaps
+    pypi_id: prettymaps
+  - name: kompute
+    github_id: KomputeProject/kompute
+    category: gpu-utilities
+    pypi_id: kp
+  - name: deepsnap
+    github_id: snap-stanford/deepsnap
+    category: graph
+    pypi_id: deepsnap
+  - name: jraph
+    github_id: deepmind/jraph
+    category: graph
+    labels: ["jax"]
+    conda_id: conda-forge/jraph
+    pypi_id: jraph
+  - name: ptgnn
+    github_id: microsoft/ptgnn
+    category: graph
+    labels: ["pytorch"]
+    pypi_id: ptgnn
+  - name: GraphGym
+    github_id: snap-stanford/GraphGym
+    category: graph
+    pypi_id: graphgym
+  - name: sahi
+    github_id: obss/sahi
+    category: image
+    conda_id: conda-forge/sahi
+    pypi_id: sahi
+  - name: icevision
+    github_id: airctic/icevision
+    category: image
+    pypi_id: icevision
+  - name: scenic
+    github_id: google-research/scenic
+    category: image
+    labels: ["jax"]
+  - name: HugsVision
+    github_id: qanastek/HugsVision
+    category: image
+    labels: ["huggingface"]
+    pypi_id: hugsvision
+  - name: equinox
+    github_id: patrick-kidger/equinox
+    category: jax-utils
+    labels: ["jax"]
+    pypi_id: equinox
+  - name: jaxdf
+    github_id: ucl-bug/jaxdf
+    category: jax-utils
+    labels: ["jax"]
+  - name: chitra
+    github_id: gradsflow/chitra
+    category: ml-experiments
+    conda_id: conda-forge/chitra
+    pypi_id: chitra
+  - name: caliban
+    github_id: google/caliban
+    category: ml-experiments
+    pypi_id: caliban
+  - name: triton
+    github_id: openai/triton
+    category: model-serialisation
+    pypi_id: triton
+  - name: whoosh
+    github_id: mchaput/whoosh
+    category: nlp
+    conda_id: conda-forge/whoosh
+    pypi_id: whoosh
+  - name: rubrix
+    github_id: recognai/rubrix
+    category: nlp
+    conda_id: conda-forge/rubrix
+    pypi_id: rubrix
+  - name: detoxify
+    github_id: unitaryai/detoxify
+    category: nlp
+    pypi_id: detoxify
+  - name: happy-transformer
+    github_id: EricFillion/happy-transformer
+    category: nlp
+    labels: ["huggingface"]
+    pypi_id: happytransformer
+  - name: qdrant
+    github_id: qdrant/qdrant
+    category: nlp
+  - name: OpenPrompt
+    github_id: thunlp/OpenPrompt
+    category: nlp
+    pypi_id: openprompt
+  - name: adapter-transformers
+    github_id: Adapter-Hub/adapter-transformers
+    category: others
+    labels: ["huggingface"]
+    pypi_id: adapter-transformers
+  - name: MONAILabel
+    github_id: Project-MONAI/MONAILabel
+    category: others
+    pypi_id: monailabel-weekly
+  - name: NeuralCompression
+    github_id: facebookresearch/NeuralCompression
+    category: others
+    pypi_id: neuralcompression
+  - name: pytorchviz
+    github_id: szagoruyko/pytorchviz
+    category: pytorch-utils
+  - name: SerpentAI
+    github_id: SerpentAI/SerpentAI
+    category: reinforcement-learning
+    pypi_id: SerpentAI
+  - name: rliable
+    github_id: google-research/rliable
+    category: reinforcement-learning
+    pypi_id: rliable`
