@@ -4490,6 +4490,6 @@ projects:
     pypi_id: tsfel
     category: time-series-data
   - name: upgini
-    github_id: upgini/upgini/
+    github_id: upgini/upgini
     pypi_id: upgini
     category: tabular
