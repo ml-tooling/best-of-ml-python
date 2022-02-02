@@ -1390,7 +1390,7 @@ projects:
     github_id: danielegrattarola/spektral
     pypi_id: spektral
     category: graph
-    labels: ["tensorflow""]
+    labels: ["tensorflow"]
   - name: GraphEmbedding
     github_id: shenweichen/GraphEmbedding
     category: graph
