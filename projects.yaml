@@ -4530,7 +4530,7 @@ projects:
     github_id: tunib-ai/parallelformers
     category: distributed-ml
     pypi_id: parallelformers
-    - name: FinQuant
+  - name: FinQuant
     github_id: fmilthaler/FinQuant
     category: financial-data
     pypi_id: FinQuant
