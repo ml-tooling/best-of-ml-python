@@ -4656,3 +4656,7 @@ projects:
     github_id: google-research/rliable
     category: reinforcement-learning
     pypi_id: rliable`
+  - name: Towhee
+    github_id: towhee-io/towhee
+    category: ml-frameworks
+    pypi_id: towhee
