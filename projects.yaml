@@ -4665,3 +4665,8 @@ projects:
     category: others
     pypi_id: KD-Lib
     labels: ["pytorch"]
+  - name: H2O-3
+    github_id: h2oai/h2o-3
+    category: distributed-ml
+    pypi_id: h2o
+    license: Apache-2.0
