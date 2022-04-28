@@ -4665,3 +4665,7 @@ projects:
     category: others
     pypi_id: KD-Lib
     labels: ["pytorch"]
+  - name: H2O Wave
+    github_id: h2oai/wave
+    pypi_id: h2o-wave
+    license: Apache-2.0
