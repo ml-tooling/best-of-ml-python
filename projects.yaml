@@ -4663,5 +4663,5 @@ projects:
   - name: KD-Lib
     github_id: SforAiDl/KD_Lib
     category: others
-    pypi_id: KD-
+    pypi_id: KD-Lib
     labels: ["pytorch"]
