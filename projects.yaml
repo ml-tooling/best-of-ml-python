@@ -4543,10 +4543,6 @@ projects:
     category: geospatial-data
     conda_id: conda-forge/prettymaps
     pypi_id: prettymaps
-  - name: kompute
-    github_id: KomputeProject/kompute
-    category: gpu-utilities
-    pypi_id: kp
   - name: deepsnap
     github_id: snap-stanford/deepsnap
     category: graph
