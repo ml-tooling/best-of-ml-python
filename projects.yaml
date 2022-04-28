@@ -4665,3 +4665,8 @@ projects:
     category: others
     pypi_id: KD-Lib
     labels: ["pytorch"]
+  - name: Collie
+    github_id: ShopRunner/collie
+    category: recommender-systems
+    pypi_id: collie
+    labels: ["pytorch"]
