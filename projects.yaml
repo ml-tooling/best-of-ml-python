@@ -4660,3 +4660,8 @@ projects:
     github_id: towhee-io/towhee
     category: ml-frameworks
     pypi_id: towhee
+  - name: KD-Lib
+    github_id: SforAiDl/KD_Lib
+    category: others
+    pypi_id: KD-Lib
+    labels: ["pytorch"]
