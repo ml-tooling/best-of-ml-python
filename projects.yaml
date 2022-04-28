@@ -4665,3 +4665,8 @@ projects:
     category: others
     pypi_id: KD-Lib
     labels: ["pytorch"]
+  - name: StatsForecast
+    github_id: Nixtla/statsforecast
+    pypi_id: statsforecast
+    conda_id: conda-forge/statsforecast
+    category: time-series-data
