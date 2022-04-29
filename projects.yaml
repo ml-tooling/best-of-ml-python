@@ -948,6 +948,11 @@ projects:
     github_id: JaidedAI/EasyOCR
     pypi_id: easyocr
     category: ocr
+  - name: MMOCR
+    github_id: open-mmlab/mmocr
+    pypi_id: mmocr
+    category: ocr
+    labels: ["pytorch"]
   - name: calamari
     github_id: Calamari-OCR/calamari
     pypi_id: calamari_ocr
@@ -4543,10 +4548,6 @@ projects:
     category: geospatial-data
     conda_id: conda-forge/prettymaps
     pypi_id: prettymaps
-  - name: kompute
-    github_id: KomputeProject/kompute
-    category: gpu-utilities
-    pypi_id: kp
   - name: deepsnap
     github_id: snap-stanford/deepsnap
     category: graph
@@ -4670,3 +4671,13 @@ projects:
     pypi_id: statsforecast
     conda_id: conda-forge/statsforecast
     category: time-series-data
+  - name: NeuralForecast
+    github_id: Nixtla/neuralforecast
+    pypi_id: neuralforecast
+    conda_id: conda-forge/neuralforecast
+    category: time-series-data
+  - name: Collie
+    github_id: ShopRunner/collie
+    category: recommender-systems
+    pypi_id: collie
+    labels: ["pytorch"]
