@@ -2483,6 +2483,10 @@ projects:
     conda_id: conda-forge/ddsp
     category: audio
     labels: ["tensorflow"]
+  - name: nebullvm
+    github_id: nebuly-ai/nebullvm
+    pypi_id: nebullvm
+    category: model-serialisation
   - name: onnx
     github_id: onnx/onnx
     pypi_id: onnx
