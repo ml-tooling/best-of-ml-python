@@ -948,6 +948,11 @@ projects:
     github_id: JaidedAI/EasyOCR
     pypi_id: easyocr
     category: ocr
+  - name: MMOCR
+    github_id: open-mmlab/mmocr
+    pypi_id: mmocr
+    category: ocr
+    labels: ["pytorch"]
   - name: calamari
     github_id: Calamari-OCR/calamari
     pypi_id: calamari_ocr
