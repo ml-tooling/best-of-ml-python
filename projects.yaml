@@ -2012,149 +2012,6 @@ projects:
     conda_id: conda-forge/dm-acme
     category: reinforcement-learning
     labels: ["tensorflow"]
-  - name: pandas
-    github_id: pandas-dev/pandas
-    pypi_id: pandas
-    conda_id: conda-forge/pandas
-    category: data-containers
-    labels: ["pandas"]
-  - name: numpy
-    github_id: numpy/numpy
-    pypi_id: numpy
-    conda_id: conda-forge/numpy
-    category: data-containers
-  - name: Arrow
-    github_id: apache/arrow
-    pypi_id: pyarrow
-    conda_id: conda-forge/arrow
-    category: data-containers
-  - name: PandaPy
-    github_id: firmai/pandapy
-    pypi_id: pandapy
-    category: data-containers
-    labels: ["pandas"]
-  - name: xarray
-    github_id: pydata/xarray
-    pypi_id: xarray
-    conda_id: conda-forge/xarray
-    category: data-containers
-  - name: sklearn-pandas
-    github_id: scikit-learn-contrib/sklearn-pandas
-    pypi_id: sklearn-pandas
-    conda_id: conda-forge/sklearn-pandas
-    category: data-containers
-    labels: ["sklearn", "pandas"]
-    license: Zlib
-  - name: pandasql
-    github_id: yhat/pandasql
-    pypi_id: pandasql
-    conda_id: conda-forge/pandasql
-    category: data-containers
-    labels: ["pandas"]
-  - name: swifter
-    github_id: jmcarpenter2/swifter
-    pypi_id: swifter
-    conda_id: conda-forge/swifter
-    category: data-containers
-    labels: ["pandas"]
-  - name: Blaze
-    github_id: blaze/blaze
-    pypi_id: blaze
-    conda_id: conda-forge/blaze
-    category: data-containers
-  - name: h5py
-    github_id: h5py/h5py
-    pypi_id: h5py
-    conda_id: conda-forge/h5py
-    category: data-containers
-  - name: datasketch
-    github_id: ekzhu/datasketch
-    pypi_id: datasketch
-    category: data-containers
-  - name: datatable
-    github_id: h2oai/datatable
-    pypi_id: datatable
-    conda_id: conda-forge/datatable
-    category: data-containers
-  - name: Vaex
-    github_id: vaexio/vaex
-    pypi_id: vaex
-    conda_id: conda-forge/vaex
-    category: data-containers
-  - name: Koalas
-    github_id: databricks/koalas
-    pypi_id: koalas
-    conda_id: conda-forge/koalas
-    category: data-containers
-    labels: ["spark", "pandas"]
-  - name: Bottleneck
-    github_id: pydata/bottleneck
-    pypi_id: Bottleneck
-    conda_id: conda-forge/bottleneck
-    category: data-containers
-  - name: PyTables
-    github_id: PyTables/PyTables
-    pypi_id: tables
-    conda_id: conda-forge/pytables
-    category: data-containers
-  - name: TinyDB
-    github_id: msiemens/tinydb
-    pypi_id: tinydb
-    conda_id: conda-forge/tinydb
-    category: data-containers
-  - name: pickleDB
-    github_id: patx/pickledb
-    pypi_id: pickledb
-    category: data-containers
-  - name: Bounter
-    github_id: RaRe-Technologies/bounter
-    pypi_id: bounter
-    category: data-containers
-  - name: StaticFrame
-    github_id: InvestmentSystems/static-frame
-    pypi_id: static-frame
-    conda_id: conda-forge/static-frame
-    category: data-containers
-    license: MIT
-  - name: Modin
-    github_id: modin-project/modin
-    pypi_id: modin
-    conda_id: conda-forge/modin-core
-    category: data-containers
-    labels: ["pandas"]
-  - name: Arctic
-    github_id: man-group/arctic
-    pypi_id: arctic
-    conda_id: conda-forge/arctic
-    category: data-containers
-    description: Arctic is a high performance datastore for numeric data.
-  - name: numexpr
-    github_id: pydata/numexpr
-    pypi_id: numexpr
-    conda_id: conda-forge/numexpr
-    category: data-containers
-  - name: "Pandaral\xB7lel"
-    github_id: nalepae/pandarallel
-    pypi_id: pandarallel
-    conda_id: conda-forge/pandarallel
-    category: data-containers
-    labels: ["pandas", "jupyter"]
-  - name: Pandas Summary
-    github_id: polyaxon/datatile
-    pypi_id: pandas-summary
-    category: data-containers
-    labels: ["pandas"]
-  - name: fletcher
-    github_id: xhochy/fletcher
-    pypi_id: fletcher
-    conda_id: conda-forge/fletcher
-    category: data-containers
-    labels: ["pandas"]
-  - name: zarr
-    github_id: zarr-developers/zarr-python
-    pypi_id: zarr
-    conda_id: conda-forge/zarr
-    category: data-containers
   - name: DLTK
     github_id: DLTK/DLTK
     pypi_id: dltk
@@ -3628,11 +3485,6 @@ projects:
     github_id: isnowfy/snownlp
     pypi_id: snownlp
     category: chinese-nlp
-  - name: bcolz
-    github_id: Blosc/bcolz
-    pypi_id: bcolz
-    conda_id: conda-forge/bcolz
-    category: data-containers
   - name: dpark
     github_id: douban/dpark
     pypi_id: dpark
@@ -4230,10 +4082,6 @@ projects:
     github_id: iver56/audiomentations
     pypi_id: audiomentations
     category: audio
-  - name: polars
-    github_id: pola-rs/polars
-    pypi_id: polars
-    category: data-containers
   - name: huey
     github_id: coleifer/huey
     pypi_id: huey
@@ -4508,17 +4356,6 @@ projects:
     github_id: Parisson/TimeSide
     category: audio
     pypi_id: TimeSide
-  - name: pandera
-    github_id: pandera-dev/pandera
-    category: data-containers
-    labels: ["pandas"]
-    conda_id: conda-forge/pandera-core
-    pypi_id: pandera
-  - name: docarray
-    github_id: jina-ai/docarray
-    category: data-containers
-    conda_id: conda-forge/docarray
-    pypi_id: docarray
   - name: datajob
     github_id: vincentclaes/datajob
     category: data-pipelines
@@ -4686,3 +4523,9 @@ projects:
     category: recommender-systems
     pypi_id: collie
     labels: ["pytorch"]
+  - name: best-of-python - Data Containers
+    github_id: ml-tooling/best-of-python
+    category: data-loading
+    description: Collection of data-container, dataframe, and pandas-utility libraries.
+    resource: true
+    homepage: https://github.com/ml-tooling/best-of-python#data-containers--dataframes
