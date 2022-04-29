@@ -4523,6 +4523,11 @@ projects:
     category: recommender-systems
     pypi_id: collie
     labels: ["pytorch"]
+  - name: Orbit
+    github_id: uber/orbit
+    category: time-series-data
+    pypi_id: orbit-ml
+    conda_id: conda-forge/orbit-ml
   - name: best-of-python - Data Containers
     github_id: ml-tooling/best-of-python
     category: data-loading
