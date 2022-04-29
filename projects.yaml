@@ -4666,6 +4666,11 @@ projects:
     category: others
     pypi_id: KD-Lib
     labels: ["pytorch"]
+  - name: NeuralForecast
+    github_id: Nixtla/neuralforecast
+    pypi_id: neuralforecast
+    conda_id: conda-forge/neuralforecast
+    category: time-series-data
   - name: Collie
     github_id: ShopRunner/collie
     category: recommender-systems
