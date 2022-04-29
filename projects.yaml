@@ -1053,7 +1053,7 @@ projects:
     pypi_id: data-describe
     category: data-viz
   - name: pandas-profiling
-    github_id: pandas-profiling/pandas-profiling
+    github_id: ydataai/pandas-profiling
     pypi_id: pandas-profiling
     conda_id: conda-forge/pandas-profiling
     category: data-viz
