@@ -4670,3 +4670,8 @@ projects:
     category: recommender-systems
     pypi_id: collie
     labels: ["pytorch"]
+  - name: reloadium
+    github_id: reloadware/reloadium
+    category: others
+    pypi_id: reloadium
+    labels: ["pandas", "hot-reloading"]
