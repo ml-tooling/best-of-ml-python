@@ -4326,6 +4326,11 @@ projects:
     pypi_id: pytorch_tabular
     category: tabular
     labels: ["pytorch"]
+  - name: miceforest
+    github_id: AnotherSamWilson/miceforest
+    pypi_id: miceforest
+    conda_id: conda-forge/miceforest
+    category: tabular
   - name: deltapy
     github_id: firmai/deltapy
     pypi_id: deltapy
