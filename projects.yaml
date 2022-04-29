@@ -1799,6 +1799,11 @@ projects:
     pypi_id: traintool
     category: ml-experiments
     labels: ["pytorch", "tensorflow", "sklearn"]
+  - name: Neptune.ai
+    github_id: neptune-ai/neptune-client
+    pypi_id: neptune-client
+    conda_id: conda-forge/neptune-client
+    category: ml-experiments
   - name: Studio.ml
     github_id: studioml/studio
     pypi_id: studioml
