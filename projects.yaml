@@ -4548,3 +4548,11 @@ projects:
     description: Collection of data-container, dataframe, and pandas-utility libraries.
     resource: true
     homepage: https://github.com/ml-tooling/best-of-python#data-containers--dataframes
+  - name: Scalable Nearest Neighbors (ScaNN)
+    github_id: google-research/google-research/tree/master/scann
+    category: nn-search
+    pypi_id: scann
+    labels: ["tensorflow"]
+    
+    
+    
