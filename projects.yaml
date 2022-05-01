@@ -4548,3 +4548,8 @@ projects:
     description: Collection of data-container, dataframe, and pandas-utility libraries.
     resource: true
     homepage: https://github.com/ml-tooling/best-of-python#data-containers--dataframes
+  - name: NeuralProphet
+    github_id: ourownstory/neural_prophet
+    category: time-series-data
+    pypi_id: neuralprophet
+    labels: ["pytorch"]
