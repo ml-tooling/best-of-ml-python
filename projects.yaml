@@ -4556,4 +4556,5 @@ projects:
   - name: Netron
     github_id: lutzroeder/netron
     category: interpretability
+    pypi_id: netron
     labels: ["pytorch", "tensorflow"]
