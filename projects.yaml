@@ -4553,3 +4553,8 @@ projects:
     category: time-series-data
     pypi_id: neuralprophet
     labels: ["pytorch"]
+  - name: Netron
+    github_id: lutzroeder/netron
+    category: interpretability
+    pypi_id: netron
+    labels: ["pytorch", "tensorflow"]
