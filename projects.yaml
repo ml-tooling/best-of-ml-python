@@ -1245,6 +1245,10 @@ projects:
     conda_id: conda-forge/captum
     category: interpretability
     labels: ["pytorch"]
+  - name: Deep Checks
+    github_id: deepchecks/deepchecks
+    pypi_id: deepchecks
+    category: interpretability
   - name: Model Analysis
     github_id: tensorflow/model-analysis
     pypi_id: tensorflow-model-analysis
