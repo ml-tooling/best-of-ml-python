@@ -4558,3 +4558,8 @@ projects:
     category: interpretability
     pypi_id: netron
     labels: ["pytorch", "tensorflow"]
+  - name: Popmon
+    github_id: ing-bank/popmon
+    category: data-viz
+    pypi_id: popmon
+    labels: ["pandas", "spark"]
