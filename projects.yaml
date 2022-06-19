@@ -4567,3 +4567,129 @@ projects:
     category: data-viz
     pypi_id: popmon
     labels: ["pandas", "spark"]
+  - name: textlesslib
+    github_id: facebookresearch/textlesslib
+    category: audio
+    labels: ["pytorch"]
+  - name: mpld3
+    github_id: mpld3/mpld3
+    category: data-viz
+    npm_id: mpld3
+    conda_id: conda-forge/mpld3
+    pypi_id: mpld3
+  - name: vegafusion
+    github_id: vegafusion/vegafusion
+    category: data-viz
+    npm_id: vegafusion-jupyter
+    conda_id: conda-forge/vegafusion-python-embed
+    pypi_id: vegafusion-jupyter
+  - name: ColossalAI
+    github_id: hpcaitech/colossalai
+    category: distributed-ml
+  - name: bluefog
+    github_id: Bluefog-Lib/bluefog
+    category: distributed-ml
+    labels: ["pytorch"]
+    pypi_id: bluefog
+  - name: moolib
+    github_id: facebookresearch/moolib
+    category: distributed-ml
+    labels: ["pytorch"]
+  - name: optimum
+    github_id: huggingface/optimum
+    category: gpu-utilities
+    conda_id: conda-forge/optimum
+    pypi_id: optimum
+  - name: Merlin
+    github_id: NVIDIA-Merlin/Merlin
+    category: gpu-utilities
+    pypi_id: merlin-core
+  - name: shap-hypetune
+    github_id: cerlymarco/shap-hypetune
+    category: hyperopt
+    pypi_id: shap-hypetune
+  - name: doctr
+    github_id: mindee/doctr
+    category: image
+    labels: ["tensorflow", "pytorch"]
+    pypi_id: python-doctr
+  - name: kubric
+    github_id: google-research/kubric
+    category: image
+    pypi_id: kubric-nightly
+  - name: ffcv
+    github_id: libffcv/ffcv
+    category: image
+    pypi_id: ffcv
+  - name: dowhy
+    github_id: py-why/dowhy
+    category: interpretability
+    pypi_id: dowhy
+  - name: evaluate
+    github_id: huggingface/evaluate
+    category: interpretability
+    pypi_id: evaluate
+  - name: Quantus
+    github_id: understandable-machine-intelligence-lab/quantus
+    category: interpretability
+    pypi_id: quantus
+  - name: evojax
+    github_id: google/evojax
+    category: jax-utils
+    labels: ["jax"]
+    conda_id: conda-forge/evojax
+    pypi_id: evojax
+  - name: ivy
+    github_id: unifyai/ivy
+    category: ml-frameworks
+    pypi_id: ivy-core
+  - name: hls4ml
+    github_id: fastmachinelearning/hls4ml
+    category: model-serialisation
+    labels: ["tensorflow", "pytorch"]
+    conda_id: conda-forge/hls4ml
+    pypi_id: hls4ml
+  - name: modelkit
+    github_id: Cornerstone-OnDemand/modelkit
+    category: model-serialisation
+    pypi_id: modelkit
+  - name: OMLT
+    github_id: cog-imperial/omlt
+    category: model-serialisation
+    pypi_id: omlt
+  - name: ml-ane-transformers
+    github_id: apple/ml-ane-transformers
+    category: model-serialisation
+    labels: ["pytorch"]
+    pypi_id: ane-transformers
+  - name: DeepKE
+    github_id: zjunlp/deepke
+    category: nlp
+    labels: ["pytorch"]
+    pypi_id: deepke
+  - name: promptsource
+    github_id: bigscience-workshop/promptsource
+    category: nlp
+    pypi_id: promptsource
+  - name: pymdp
+    github_id: infer-actively/pymdp
+    category: others
+    pypi_id: inferactively-pymdp
+  - name: PipelineDP
+    github_id: OpenMined/PipelineDP
+    category: privacy-ml
+    pypi_id: pipeline-dp
+  - name: torchrec
+    github_id: pytorch/torchrec
+    category: recommender-systems
+    pypi_id: torchrec-nightly-cpu
+  - name: anomalib
+    github_id: openvinotoolkit/anomalib
+    pypi_id: anomalib
+  - name: benchmark_VAE
+    github_id: clementchadebec/benchmark_VAE
+    labels: ["pytorch"]
+    pypi_id: pythae
+  - name: metricflow
+    github_id: transform-data/metricflow
+    pypi_id: metricflow
