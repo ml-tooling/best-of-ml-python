@@ -1175,7 +1175,7 @@ projects:
     category: interpretability
     labels: ["pytorch"]
   - name: DoWhy
-    github_id: Microsoft/dowhy
+    github_id: py-why/dowhy
     pypi_id: dowhy
     conda_id: conda-forge/dowhy
     category: interpretability
@@ -4621,10 +4621,6 @@ projects:
     github_id: libffcv/ffcv
     category: image
     pypi_id: ffcv
-  - name: dowhy
-    github_id: py-why/dowhy
-    category: interpretability
-    pypi_id: dowhy
   - name: evaluate
     github_id: huggingface/evaluate
     category: interpretability
