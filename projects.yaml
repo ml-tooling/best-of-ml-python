@@ -4689,3 +4689,56 @@ projects:
   - name: metricflow
     github_id: transform-data/metricflow
     pypi_id: metricflow
+  - name: torchrec
+    github_id: pytorch/torchrec
+    category: recommender-systems
+    labels: ["pytorch"]
+    pypi_id: torchrec-nightly-cpu
+  - name: scikit-learn-intelex
+    github_id: intel/scikit-learn-intelex
+    category: sklearn-utils
+    labels: ["sklearn"]
+    conda_id: conda-forge/scikit-learn-intelex
+    pypi_id: scikit-learn-intelex
+  - name: scikit-survival
+    github_id: sebp/scikit-survival
+    category: sklearn-utils
+    labels: ["sklearn"]
+    conda_id: conda-forge/scikit-survival
+    pypi_id: scikit-survival
+  - name: emcee
+    github_id: dfm/emcee
+    category: probabilistics
+    conda_id: conda-forge/emcee
+    pypi_id: emcee
+  - name: underthesea
+    github_id: undertheseanlp/underthesea
+    category: nlp
+    pypi_id: underthesea
+  - name: FEDOT
+    github_id: nccr-itmo/FEDOT
+    category: hyperopt
+    pypi_id: fedot
+  - name: lightwood
+    github_id: mindsdb/lightwood
+    category: hyperopt
+    labels: ["pytorch"]
+    pypi_id: lightwood
+  - name: opytimizer
+    github_id: gugarosa/opytimizer
+    category: hyperopt
+    pypi_id: opytimizer
+  - name: igel
+    github_id: nidhaloff/igel
+    category: hyperopt
+    pypi_id: igel
+  - name: detecto
+    github_id: alankbi/detecto
+    category: image
+    labels: ["pytorch"]
+    conda_id: conda-forge/detecto
+    pypi_id: detecto
+  - name: RasgoQL
+    github_id: rasgointelligence/RasgoQL
+    category: data-pipelines
+    pypi_id: rasgoql
