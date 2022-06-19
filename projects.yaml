@@ -279,7 +279,7 @@ projects:
     category: ml-frameworks
     labels: ["pytorch"]
   - name: pytorch-lightning
-    github_id: PyTorchLightning/pytorch-lightning
+    github_id: Lightning-AI/lightning
     pypi_id: pytorch-lightning
     conda_id: conda-forge/pytorch-lightning
     category: ml-frameworks
@@ -592,7 +592,7 @@ projects:
     pypi_id: snips-nlu
     category: nlp
   - name: fairseq
-    github_id: pytorch/fairseq
+    github_id: facebookresearch/fairseq
     pypi_id: fairseq
     conda_id: conda-forge/fairseq
     category: nlp
@@ -2780,7 +2780,7 @@ projects:
     description: Open standard for end-to-end data and ML monitoring for any scale in
       any infrastructure.
   - name: Baal
-    github_id: ElementAI/baal
+    github_id: baal-org/baal
     pypi_id: baal
     conda_id: conda-forge/baal
     category: probabilistics
@@ -4125,7 +4125,7 @@ projects:
     category: distributed-ml
     labels: ["tensorflow"]
   - name: metrics
-    github_id: PyTorchLightning/metrics
+    github_id: Lightning-AI/metrics
     pypi_id: metrics
     conda_id: conda-forge/torchmetrics
     category: distributed-ml
@@ -4180,7 +4180,7 @@ projects:
     category: image
     labels: ["pytorch"]
   - name: solt
-    github_id: MIPT-Oulu/solt
+    github_id: Oulu-IMEDS/solt
     pypi_id: solt
     category: image
   - name: shapash
@@ -4315,7 +4315,7 @@ projects:
     category: pytorch-utils
     labels: ["pytorch"]
   - name: lightning-flash
-    github_id: PyTorchLightning/lightning-flash
+    github_id: Lightning-AI/lightning-flash
     pypi_id: lightning-flash
     conda_id: conda-forge/lightning-flash
     category: pytorch-utils
@@ -4372,159 +4372,159 @@ projects:
     category: tabular
   - name: TimeSide
     github_id: Parisson/TimeSide
-    category: audio
     pypi_id: TimeSide
+    category: audio
   - name: datajob
     github_id: vincentclaes/datajob
-    category: data-pipelines
     pypi_id: datajob
+    category: data-pipelines
   - name: SynapseML
     github_id: microsoft/SynapseML
-    category: distributed-ml
     pypi_id: synapseml
+    category: distributed-ml
   - name: mesh-transformer-jax
     github_id: kingoflolz/mesh-transformer-jax
     category: distributed-ml
     labels: ["jax"]
   - name: parallelformers
     github_id: tunib-ai/parallelformers
-    category: distributed-ml
     pypi_id: parallelformers
+    category: distributed-ml
   - name: FinQuant
     github_id: fmilthaler/FinQuant
-    category: financial-data
     pypi_id: FinQuant
+    category: financial-data
   - name: pyrtfolio
     github_id: alvarobartt/pyrtfolio
-    category: financial-data
     pypi_id: pyrtfolio
+    category: financial-data
   - name: prettymaps
     github_id: marceloprates/prettymaps
-    category: geospatial-data
-    conda_id: conda-forge/prettymaps
     pypi_id: prettymaps
+    conda_id: conda-forge/prettymaps
+    category: geospatial-data
   - name: deepsnap
     github_id: snap-stanford/deepsnap
-    category: graph
     pypi_id: deepsnap
+    category: graph
   - name: jraph
     github_id: deepmind/jraph
+    pypi_id: jraph
+    conda_id: conda-forge/jraph
     category: graph
     labels: ["jax"]
-    conda_id: conda-forge/jraph
-    pypi_id: jraph
   - name: ptgnn
     github_id: microsoft/ptgnn
+    pypi_id: ptgnn
     category: graph
     labels: ["pytorch"]
-    pypi_id: ptgnn
   - name: GraphGym
     github_id: snap-stanford/GraphGym
-    category: graph
     pypi_id: graphgym
+    category: graph
   - name: sahi
     github_id: obss/sahi
-    category: image
-    conda_id: conda-forge/sahi
     pypi_id: sahi
+    conda_id: conda-forge/sahi
+    category: image
   - name: icevision
     github_id: airctic/icevision
-    category: image
     pypi_id: icevision
+    category: image
   - name: scenic
     github_id: google-research/scenic
     category: image
     labels: ["jax"]
   - name: HugsVision
     github_id: qanastek/HugsVision
+    pypi_id: hugsvision
     category: image
     labels: ["huggingface"]
-    pypi_id: hugsvision
   - name: equinox
     github_id: patrick-kidger/equinox
+    pypi_id: equinox
     category: jax-utils
     labels: ["jax"]
-    pypi_id: equinox
   - name: jaxdf
     github_id: ucl-bug/jaxdf
     category: jax-utils
     labels: ["jax"]
   - name: chitra
     github_id: gradsflow/chitra
-    category: ml-experiments
-    conda_id: conda-forge/chitra
     pypi_id: chitra
+    conda_id: conda-forge/chitra
+    category: ml-experiments
   - name: caliban
     github_id: google/caliban
-    category: ml-experiments
     pypi_id: caliban
+    category: ml-experiments
   - name: triton
     github_id: openai/triton
-    category: model-serialisation
     pypi_id: triton
+    category: model-serialisation
   - name: whoosh
     github_id: mchaput/whoosh
-    category: nlp
-    conda_id: conda-forge/whoosh
     pypi_id: whoosh
+    conda_id: conda-forge/whoosh
+    category: nlp
   - name: rubrix
     github_id: recognai/rubrix
-    category: nlp
-    conda_id: conda-forge/rubrix
     pypi_id: rubrix
+    conda_id: conda-forge/rubrix
+    category: nlp
   - name: detoxify
     github_id: unitaryai/detoxify
-    category: nlp
     pypi_id: detoxify
+    category: nlp
   - name: happy-transformer
     github_id: EricFillion/happy-transformer
+    pypi_id: happytransformer
     category: nlp
     labels: ["huggingface"]
-    pypi_id: happytransformer
   - name: qdrant
     github_id: qdrant/qdrant
     category: nlp
   - name: OpenPrompt
     github_id: thunlp/OpenPrompt
-    category: nlp
     pypi_id: openprompt
+    category: nlp
   - name: adapter-transformers
     github_id: Adapter-Hub/adapter-transformers
+    pypi_id: adapter-transformers
     category: others
     labels: ["huggingface"]
-    pypi_id: adapter-transformers
   - name: MONAILabel
     github_id: Project-MONAI/MONAILabel
-    category: others
     pypi_id: monailabel-weekly
+    category: others
   - name: NeuralCompression
     github_id: facebookresearch/NeuralCompression
-    category: others
     pypi_id: neuralcompression
+    category: others
   - name: pytorchviz
     github_id: szagoruyko/pytorchviz
     category: pytorch-utils
   - name: SerpentAI
     github_id: SerpentAI/SerpentAI
-    category: reinforcement-learning
     pypi_id: SerpentAI
+    category: reinforcement-learning
   - name: rliable
     github_id: google-research/rliable
-    category: reinforcement-learning
     pypi_id: rliable`
+    category: reinforcement-learning
   - name: Towhee
     github_id: towhee-io/towhee
-    category: ml-frameworks
     pypi_id: towhee
+    category: ml-frameworks
   - name: KD-Lib
     github_id: SforAiDl/KD_Lib
-    category: others
     pypi_id: KD-Lib
+    category: others
     labels: ["pytorch"]
   - name: H2O-3
     github_id: h2oai/h2o-3
-    category: distributed-ml
     pypi_id: h2o
+    category: distributed-ml
     license: Apache-2.0
   - name: StatsForecast
     github_id: Nixtla/statsforecast
@@ -4538,14 +4538,14 @@ projects:
     category: time-series-data
   - name: Collie
     github_id: ShopRunner/collie
-    category: recommender-systems
     pypi_id: collie
+    category: recommender-systems
     labels: ["pytorch"]
-  - name: Orbit
+  - name: uber/orbit
     github_id: uber/orbit
-    category: time-series-data
     pypi_id: orbit-ml
     conda_id: conda-forge/orbit-ml
+    category: time-series-data
   - name: best-of-python - Data Containers
     github_id: ml-tooling/best-of-python
     category: data-loading
@@ -4554,18 +4554,18 @@ projects:
     homepage: https://github.com/ml-tooling/best-of-python#data-containers--dataframes
   - name: NeuralProphet
     github_id: ourownstory/neural_prophet
-    category: time-series-data
     pypi_id: neuralprophet
+    category: time-series-data
     labels: ["pytorch"]
   - name: Netron
     github_id: lutzroeder/netron
-    category: interpretability
     pypi_id: netron
+    category: interpretability
     labels: ["pytorch", "tensorflow"]
   - name: Popmon
     github_id: ing-bank/popmon
-    category: data-viz
     pypi_id: popmon
+    category: data-viz
     labels: ["pandas", "spark"]
   - name: textlesslib
     github_id: facebookresearch/textlesslib
