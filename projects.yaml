@@ -2642,143 +2642,6 @@ projects:
     github_id: rapidsai/cusignal
     category: gpu-utilities
     description: GPU accelerated signal processing.
-  - name: Great Expectations
-    github_id: great-expectations/great_expectations
-    pypi_id: great_expectations
-    conda_id: conda-forge/great-expectations
-    category: data-pipelines
-  - name: pysparkling
-    github_id: svenkreiss/pysparkling
-    pypi_id: pysparkling
-    conda_id: conda-forge/pysparkling
-    category: data-pipelines
-  - name: streamparse
-    github_id: Parsely/streamparse
-    pypi_id: streamparse
-    category: data-pipelines
-  - name: mrjob
-    github_id: Yelp/mrjob
-    pypi_id: mrjob
-    conda_id: conda-forge/mrjob
-    category: data-pipelines
-    license: Apache-2.0
-  - name: TFX
-    github_id: tensorflow/tfx
-    pypi_id: tfx
-    category: data-pipelines
-    labels: ["tensorflow"]
-  - name: Pypeline
-    github_id: cgarciae/pypeln
-    pypi_id: pypeln
-    conda_id: conda-forge/pypeln
-    category: data-pipelines
-  - name: Botflow
-    github_id: kkyon/botflow
-    pypi_id: botflow
-    category: data-pipelines
-  - name: BatchFlow
-    github_id: analysiscenter/batchflow
-    pypi_id: batchflow
-    category: data-pipelines
-  - name: Prefect
-    github_id: PrefectHQ/prefect
-    pypi_id: prefect
-    conda_id: conda-forge/prefect
-    category: data-pipelines
-  - name: luigi
-    github_id: spotify/luigi
-    pypi_id: luigi
-    conda_id: luigi
-    category: data-pipelines
-    helm_id: stable/luigi
-  - name: Databolt Flow
-    github_id: d6t/d6tflow
-    pypi_id: d6tflow
-    category: data-pipelines
-  - name: dbt
-    github_id: dbt-labs/dbt-core
-    pypi_id: dbt
-    conda_id: conda-forge/dbt
-    category: data-pipelines
-    brew_id: dbt
-  - name: PyFunctional
-    github_id: EntilZha/PyFunctional
-    pypi_id: pyfunctional
-    category: data-pipelines
-  - name: Mara Pipelines
-    github_id: mara/mara-pipelines
-    pypi_id: mara-pipelines
-    category: data-pipelines
-  - name: pdpipe
-    github_id: pdpipe/pdpipe
-    pypi_id: pdpipe
-    conda_id: conda-forge/pdpipe
-    category: data-pipelines
-    labels: ["pandas"]
-  - name: riko
-    github_id: nerevu/riko
-    pypi_id: riko
-    category: data-pipelines
-  - name: Dagster
-    github_id: dagster-io/dagster
-    pypi_id: dagster
-    conda_id: conda-forge/dagster
-    category: data-pipelines
-  - name: Kedro
-    github_id: kedro-org/kedro
-    pypi_id: kedro
-    category: data-pipelines
-  - name: Airflow
-    github_id: apache/airflow
-    pypi_id: apache-airflow
-    conda_id: conda-forge/airflow
-    dockerhub_id: apache/airflow
-    category: data-pipelines
-    helm_id: stable/airflow
-    description: Platform to programmatically author, schedule, and monitor workflows.
-  - name: Beam
-    github_id: apache/beam
-    pypi_id: apache-beam
-    conda_id: conda-forge/apache-beam-with-aws
-    category: data-pipelines
-    description: Unified programming model to define and execute data processing pipelines,
-      including ETL, batch and stream processing.
-  - name: faust
-    github_id: robinhood/faust
-    pypi_id: faust
-    category: data-pipelines
-  - name: Celery
-    github_id: celery/celery
-    pypi_id: celery
-    conda_id: conda-forge/celery
-    category: data-pipelines
-    description: Asynchronous task queue/job queue based on distributed message passing.
-  - name: bonobo
-    github_id: python-bonobo/bonobo
-    pypi_id: bonobo
-    docs_url: http://docs.bonobo-project.org/en/master/
-    category: data-pipelines
-  - name: petl
-    github_id: petl-developers/petl
-    pypi_id: petl
-    conda_id: conda-forge/petl
-    docs_url: http://petl.readthedocs.org
-    category: data-pipelines
-  - name: TaskTiger
-    github_id: closeio/tasktiger
-    pypi_id: tasktiger
-    category: data-pipelines
-  - name: Optimus
-    github_id: hi-primus/optimus
-    pypi_id: optimuspyspark
-    category: data-pipelines
-    labels: ["spark"]
-  - name: whylogs
-    github_id: whylabs/whylogs
-    pypi_id: whylogs
-    category: data-pipelines
-    description: Open standard for end-to-end data and ML monitoring for any scale in
-      any infrastructure.
   - name: Baal
     github_id: baal-org/baal
     pypi_id: baal
@@ -3498,16 +3361,6 @@ projects:
     github_id: isnowfy/snownlp
     pypi_id: snownlp
     category: chinese-nlp
-  - name: dpark
-    github_id: douban/dpark
-    pypi_id: dpark
-    category: data-pipelines
-    labels: ["spark"]
-  - name: arq
-    github_id: samuelcolvin/arq
-    pypi_id: arq
-    conda_id: conda-forge/arq
-    category: data-pipelines
   - name: plotnine
     github_id: has2k1/plotnine
     pypi_id: plotnine
@@ -3802,27 +3655,6 @@ projects:
   - name: TTS
     github_id: mozilla/TTS
     category: audio
-  - name: spark-deep-learning
-    github_id: databricks/spark-deep-learning
-    category: data-pipelines
-    labels: ["spark"]
-  - name: mrq
-    github_id: pricingassistant/mrq
-    pypi_id: mrq
-    category: data-pipelines
-  - name: zenml
-    github_id: zenml-io/zenml
-    pypi_id: zenml
-    category: data-pipelines
-  - name: flupy
-    github_id: olirice/flupy
-    pypi_id: flupy
-    category: data-pipelines
-  - name: ploomber
-    github_id: ploomber/ploomber
-    pypi_id: ploomber
-    conda_id: conda-forge/ploomber
-    category: data-pipelines
   - name: animatplot
     github_id: t-makaro/animatplot
     pypi_id: animatplot
@@ -3958,11 +3790,6 @@ projects:
     pypi_id: skggm
     category: sklearn-utils
     labels: ["sklearn"]
-  - name: rq
-    github_id: rq/rq
-    pypi_id: rq
-    conda_id: conda-forge/rq
-    category: data-pipelines
   - name: best-of-python - DB Clients
     github_id: ml-tooling/best-of-python
     category: db-clients
@@ -4004,11 +3831,6 @@ projects:
     pypi_id: cartopy
     conda_id: conda-forge/cartopy
     category: data-viz
-  - name: joblib
-    github_id: joblib/joblib
-    pypi_id: joblib
-    conda_id: conda-forge/joblib
-    category: data-pipelines
   - name: findspark
     github_id: minrk/findspark
     pypi_id: findspark
@@ -4060,10 +3882,6 @@ projects:
     category: interpretability
     labels: ["pytorch", "sklearn"]
     license: Apache-2.0
-  - name: bodywork-core
-    github_id: bodywork-ml/bodywork-core
-    pypi_id: bodywork
-    category: data-pipelines
   - name: nnAudio
     github_id: KinWaiCheuk/nnAudio
     pypi_id: nnAudio
@@ -4072,10 +3890,6 @@ projects:
     github_id: ml-tooling/opyrator
     pypi_id: opyrator
     conda_id: conda-forge/opyrator
-  - name: Activeloop
-    github_id: activeloopai/Hub
-    pypi_id: hub
-    category: data-pipelines
   - name: textflint
     github_id: textflint/textflint
     pypi_id: textflint
@@ -4095,25 +3909,6 @@ projects:
     github_id: iver56/audiomentations
     pypi_id: audiomentations
     category: audio
-  - name: huey
-    github_id: coleifer/huey
-    pypi_id: huey
-    conda_id: conda-forge/huey
-    category: data-pipelines
-  - name: mleap
-    github_id: combust/mleap
-    pypi_id: mleap
-    conda_id: conda-forge/mleap
-    category: data-pipelines
-  - name: dbnd
-    github_id: databand-ai/dbnd
-    pypi_id: dbnd
-    category: data-pipelines
-  - name: kale
-    github_id: kubeflow-kale/kale
-    pypi_id: kubeflow-kale
-    category: data-pipelines
-    labels: ["jupyter"]
   - name: launchpad
     github_id: deepmind/launchpad
     pypi_id: dm-launchpad
@@ -4374,10 +4169,6 @@ projects:
     github_id: Parisson/TimeSide
     pypi_id: TimeSide
     category: audio
-  - name: datajob
-    github_id: vincentclaes/datajob
-    pypi_id: datajob
-    category: data-pipelines
   - name: SynapseML
     github_id: microsoft/SynapseML
     pypi_id: synapseml
@@ -4738,7 +4529,4 @@ projects:
     labels: ["pytorch"]
     conda_id: conda-forge/detecto
     pypi_id: detecto
-  - name: RasgoQL
-    github_id: rasgointelligence/RasgoQL
-    category: data-pipelines
-    pypi_id: rasgoql
+
