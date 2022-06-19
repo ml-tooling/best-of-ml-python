@@ -4529,4 +4529,8 @@ projects:
     labels: ["pytorch"]
     conda_id: conda-forge/detecto
     pypi_id: detecto
-
+  - name: TFX
+    github_id: tensorflow/tfx
+    pypi_id: tfx
+    category: tensorflow-utils
+    labels: ["tensorflow"]
