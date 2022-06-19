@@ -4534,3 +4534,10 @@ projects:
     pypi_id: tfx
     category: tensorflow-utils
     labels: ["tensorflow"]
+  - name: best-of-python - Data Pipelines
+    github_id: ml-tooling/best-of-python
+    category: data-pipelines
+    description: Libraries for data batch- and stream-processing, workflow automation, job scheduling, and other data pipeline tasks.
+    resource: true
+    homepage: https://github.com/ml-tooling/best-of-python#data-pipelines--streaming
+ 
