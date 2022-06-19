@@ -100,8 +100,8 @@ categories:
     title: "Adversarial Robustness"
     subtitle: "Libraries for testing the robustness of machine learning models against attacks with adversarial/malicious examples."
   - category: "gpu-utilities"
-    title: "GPU Utilities"
-    subtitle: "Libraries that require and make use of CUDA/GPU system capabilities to optimize data handling and machine learning tasks."
+    title: "GPU & Accelerator Utilities"
+    subtitle: "Libraries that require and make use of CUDA/GPU or other accelerator hardware capabilities to optimize machine learning tasks."
   - category: "tensorflow-utils"
     title: "Tensorflow Utilities"
     subtitle: "Libraries that extend TensorFlow with additional capabilities."
@@ -4548,7 +4548,7 @@ projects:
     category: time-series-data
   - name: best-of-python - Data Containers
     github_id: ml-tooling/best-of-python
-    category: data-loading
+    category: data-containers
     description: Collection of data-container, dataframe, and pandas-utility libraries.
     resource: true
     homepage: https://github.com/ml-tooling/best-of-python#data-containers--dataframes
