@@ -4166,6 +4166,11 @@ projects:
     github_id: fraunhoferportugal/tsfel
     pypi_id: tsfel
     category: time-series-data
+  - name: tsflex
+    github_id: predict-idlab/tsflex
+    pypi_id: tsflex
+    conda_id: conda-forge/tsflex
+    category: time-series-data
   - name: upgini
     github_id: upgini/upgini
     pypi_id: upgini
