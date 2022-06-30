@@ -973,6 +973,11 @@ projects:
     conda_id: conda-forge/plotly
     category: data-viz
     npm_id: plotlywidget
+  - name: Plotly-Resampler
+    github_id: predict-idlab/plotly-resampler
+    pypi_id: plotly-resampler
+    conda_id: conda-forge/plotly-resampler
+    category: data-viz
   - name: HoloViews
     github_id: holoviz/holoviews
     pypi_id: holoviews
