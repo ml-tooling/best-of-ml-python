@@ -4544,6 +4544,12 @@ projects:
     pypi_id: tfx
     category: tensorflow-utils
     labels: ["tensorflow"]
+  - name: small-text
+    github_id: webis-de/small-text
+    pypi_id: small-text
+    conda_id: conda-forge/small-text
+    category: nlp
+    labels: ["sklearn", "pytorch"]
   - name: best-of-python - Data Pipelines
     github_id: ml-tooling/best-of-python
     category: data-pipelines
