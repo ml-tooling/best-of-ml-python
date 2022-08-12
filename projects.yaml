@@ -211,6 +211,12 @@ projects:
     pypi_id: lightgbm
     conda_id: conda-forge/lightgbm
     category: ml-frameworks
+  - name: Geomstats
+    github_id: geomstats/geomstats
+    pypi_id: geomstats
+    conda_id: conda-forge/geomstats
+    docs_url: https://geomstats.ai
+    category: ml-frameworks
   - name: Theano
     github_id: Theano/Theano
     pypi_id: theano
