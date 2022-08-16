@@ -2127,6 +2127,11 @@ projects:
     pypi_id: dipy
     conda_id: conda-forge/dipy
     category: medical-data
+  - name: pyRiemann
+    github_id: pyRiemann/pyRiemann
+    pypi_id: pyriemann
+    docs_url: https://pyriemann.readthedocs.io/en/latest/
+    category: medical-data
   - name: BigDL
     github_id: intel-analytics/BigDL
     pypi_id: bigdl
