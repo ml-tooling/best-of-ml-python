@@ -9142,6 +9142,7 @@ _Libraries for connecting to, operating, and querying databases._
 - [**Best-of lists**](https://best-of.org): Discover other best-of lists with awesome open-source projects on all kinds of topics.
 - [**best-of-python-dev**](https://github.com/ml-tooling/best-of-python-dev): A ranked list of awesome python developer tools and libraries.
 - [**best-of-web-python**](https://github.com/ml-tooling/best-of-web-python): A ranked list of awesome python libraries for web development.
+- [**Data Visualization**](https://www.scaler.com/topics/data-visualization-in-python/): Learn data visualization in python.
 
 ## Contribution
 
