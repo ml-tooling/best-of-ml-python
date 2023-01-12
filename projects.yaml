@@ -2266,6 +2266,11 @@ projects:
     conda_id: conda-forge/tsfresh
     category: time-series-data
     labels: ["sklearn"]
+  - name: tslumen
+    github_id: hsbc/tslumen
+    pypi_id: tslumen
+    conda_id: conda-forge/tslumen
+    category: time-series-data
   - name: tslearn
     github_id: tslearn-team/tslearn
     pypi_id: tslearn
