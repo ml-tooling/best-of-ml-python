@@ -1767,6 +1767,8 @@ projects:
   - name: AutoGluon
     github_id: autogluon/autogluon
     pypi_id: autogluon
+    docs_url: https://auto.gluon.ai
+    dockerhub_id: autogluon/autogluon
     category: hyperopt
     labels: ["pytorch", "sklearn"]
   - name: ENAS
