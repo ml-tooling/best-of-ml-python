@@ -1765,10 +1765,12 @@ projects:
     pypi_id: automl_gs
     category: hyperopt
   - name: AutoGluon
-    github_id: awslabs/autogluon
+    github_id: autogluon/autogluon
     pypi_id: autogluon
+    docs_url: https://auto.gluon.ai
+    dockerhub_id: autogluon/autogluon
     category: hyperopt
-    labels: ["mxnet"]
+    labels: ["pytorch", "sklearn"]
   - name: ENAS
     github_id: carpedm20/ENAS-pytorch
     category: hyperopt
