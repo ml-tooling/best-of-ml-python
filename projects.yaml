@@ -120,6 +120,12 @@ categories:
   - category: "chinese-nlp"
     title: "Chinese NLP"
     ignore: True
+  - category: "testing"
+    title: "Testing"
+    subtitle: "Libraries for testing data."
+  - category: "dbt"
+    title: "Design by Contract"
+    subtitle: "Libraries for implementing Design by Contract."
 
 labels:
   - label: "tensorflow"
@@ -4574,4 +4580,15 @@ projects:
     description: Libraries for data batch- and stream-processing, workflow automation, job scheduling, and other data pipeline tasks.
     resource: true
     homepage: https://github.com/ml-tooling/best-of-python#data-pipelines--streaming
- 
+  - name: pandera
+    github_id: unionai-oss/pandera
+    pypi_id: pandera
+    category: dbt
+    labels: ["pandas"]
+    conda_id: conda-forge/pandera
+  - name: pandera
+    github_id: unionai-oss/pandera
+    pypi_id: pandera
+    category: testing
+    labels: ["pandas"]
+    conda_id: conda-forge/pandera
