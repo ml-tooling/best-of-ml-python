@@ -4574,4 +4574,7 @@ projects:
     description: Libraries for data batch- and stream-processing, workflow automation, job scheduling, and other data pipeline tasks.
     resource: true
     homepage: https://github.com/ml-tooling/best-of-python#data-pipelines--streaming
- 
+  - name: pandas-ai
+    github_id: gventuri/pandas-ai
+    category: others
+    pypi_id: pandas-ai
