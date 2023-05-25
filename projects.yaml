@@ -4578,3 +4578,9 @@ projects:
     github_id: gventuri/pandas-ai
     category: others
     pypi_id: pandas-ai
+  - name: USearch
+    github_id: unum-cloud/usearch
+    dockerhub_id: unum/usearch
+    npm_id: usearch
+    pypi_id: usearch
+    category: nn-search
