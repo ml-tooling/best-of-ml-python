@@ -4583,3 +4583,9 @@ projects:
     pypi_id: uform
     category: nlp
     labels: ["pytorch"]
+  - name: USearch
+    github_id: unum-cloud/usearch
+    dockerhub_id: unum/usearch
+    npm_id: usearch
+    pypi_id: usearch
+    category: nn-search
