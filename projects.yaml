@@ -4578,6 +4578,11 @@ projects:
     github_id: gventuri/pandas-ai
     category: others
     pypi_id: pandas-ai
+  - name: UForm
+    github_id: unum-cloud/uform
+    pypi_id: uform
+    category: nlp
+    labels: ["pytorch"]
   - name: USearch
     github_id: unum-cloud/usearch
     dockerhub_id: unum/usearch
