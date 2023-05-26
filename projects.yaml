@@ -2132,8 +2132,10 @@ projects:
   - name: pyRiemann
     github_id: pyRiemann/pyRiemann
     pypi_id: pyriemann
+    conda_id: conda-forge/pyriemann
     docs_url: https://pyriemann.readthedocs.io/en/latest/
-    category: medical-data
+    category: ml-frameworks
+    labels: ["sklearn"]
   - name: BigDL
     github_id: intel-analytics/BigDL
     pypi_id: bigdl
