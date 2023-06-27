@@ -352,6 +352,11 @@ projects:
     pypi_id: mindsdb
     category: ml-frameworks
     labels: ["pytorch"]
+  - name: EvaDB
+    github_id: georgia-tech-db/eva
+    pypi_id: evadb
+    category: ml-frameworks
+    labels: ["pytorch"]  
   - name: StatsModels
     github_id: statsmodels/statsmodels
     pypi_id: statsmodels
