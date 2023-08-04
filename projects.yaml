@@ -3535,6 +3535,11 @@ projects:
     pypi_id: gpt-2-simple
     category: nlp
     labels: ["tensorflow"]
+  - name: litellm
+    github_id: BerriAI/litellm
+    pypi_id: litellm
+    category: nlp
+    labels: others
   - name: pyclustering
     github_id: annoviko/pyclustering
     pypi_id: pyclustering
