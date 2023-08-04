@@ -424,6 +424,13 @@ projects:
     conda_id: conda-forge/jina-core
     dockerhub_id: jinaai/jina
     category: ml-frameworks
+  - name: Determined
+    github_id: determined-ai/determined
+    pypi_id: determined
+    docs_url: https://docs.determined.ai
+    category: ml-frameworks
+    labels: ["pytorch", "tensorflow"]
+    license: Apache-2.0
   - name: Texthero
     github_id: jbesomi/texthero
     pypi_id: texthero
