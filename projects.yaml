@@ -4476,7 +4476,7 @@ projects:
   - name: ivy
     github_id: unifyai/ivy
     category: ml-frameworks
-    pypi_id: ivy-core
+    pypi_id: ivy
   - name: hls4ml
     github_id: fastmachinelearning/hls4ml
     category: model-serialisation
