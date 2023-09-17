@@ -2299,6 +2299,11 @@ projects:
     conda_id: conda-forge/sktime-all-extras
     category: time-series-data
     labels: ["sklearn"]
+  - name: skforecast
+    github_id: JoaquinAmatRodrigo/skforecast
+    pypi_id: skforecast
+    category: time-series-data
+    labels: ["sklearn"]
   - name: GluonTS
     github_id: awslabs/gluon-ts
     pypi_id: gluonts
