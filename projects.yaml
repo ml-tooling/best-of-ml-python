@@ -4613,3 +4613,8 @@ projects:
     npm_id: usearch
     pypi_id: usearch
     category: nn-search
+  - name: CometML
+    github_id: comet-ml/examples
+    conda_id: comet_ml
+    pypi_id: comet_ml
+    category: ml-experiments
