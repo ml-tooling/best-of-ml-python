@@ -4613,3 +4613,7 @@ projects:
     npm_id: usearch
     pypi_id: usearch
     category: nn-search
+  - name: CometLLM
+    github_id: comet-ml/comet-llm
+    pypi_id: comet-llm
+    category: nlp
