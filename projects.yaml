@@ -2529,8 +2529,8 @@ projects:
     conda_id: conda-forge/ddsp
     category: audio
     labels: ["tensorflow"]
-  - name: nebullvm
-    github_id: nebuly-ai/nebullvm
+  - name: speedster
+    github_id: nebuly-ai/nebullvm/tree/main/apps/accelerate/speedster
     pypi_id: nebullvm
     category: model-serialisation
   - name: onnx
