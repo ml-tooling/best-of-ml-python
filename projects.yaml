@@ -396,6 +396,11 @@ projects:
     pypi_id: objax
     category: ml-frameworks
     labels: ["jax"]
+  - name: nanodl
+    github_id: HMUNACHI/nanodl
+    pypi_id: nanodl
+    category: ml-frameworks
+    labels: ["jax"]
   - name: Haiku
     github_id: deepmind/dm-haiku
     pypi_id: dm-haiku
