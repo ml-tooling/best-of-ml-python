@@ -4389,7 +4389,7 @@ projects:
     pypi_id: collie
     category: recommender-systems
     labels: ["pytorch"]
-  - name: uber/orbit
+  - name: Orbit
     github_id: uber/orbit
     pypi_id: orbit-ml
     conda_id: conda-forge/orbit-ml
