@@ -1784,6 +1784,7 @@ projects:
   - name: AutoGluon
     github_id: autogluon/autogluon
     pypi_id: autogluon
+    conda_id: conda-forge/autogluon
     docs_url: https://auto.gluon.ai
     dockerhub_id: autogluon/autogluon
     category: hyperopt
