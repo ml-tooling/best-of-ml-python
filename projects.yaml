@@ -4628,3 +4628,7 @@ projects:
     github_id: run-house/runhouse
     pypi_id: runhouse
     category: ml-frameworks
+  - name: Opik
+    github_id: comet-ml/opik
+    pypi_id: opik
+    category: nlp
