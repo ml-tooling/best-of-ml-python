@@ -4632,3 +4632,8 @@ projects:
     github_id: comet-ml/opik
     pypi_id: opik
     category: nlp
+  - name: TorchUncertainty
+    github_id: ENSTA-U2IS-AI/torch-uncertainty
+    pypi_id: torch-uncertainty
+    category: probabilistics
+    labels: ["pytorch"]
