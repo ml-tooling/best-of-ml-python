@@ -1001,6 +1001,12 @@ projects:
     pypi_id: plotly-resampler
     conda_id: conda-forge/plotly-resampler
     category: data-viz
+  - name: ridgeplot
+    github_id: tpvasconcelos/ridgeplot
+    pypi_id: ridgeplot
+    license: MIT
+    docs_url: https://ridgeplot.readthedocs.io/
+    category: data-viz
   - name: HoloViews
     github_id: holoviz/holoviews
     pypi_id: holoviews
