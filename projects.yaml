@@ -4643,3 +4643,7 @@ projects:
     pypi_id: torch-uncertainty
     category: probabilistics
     labels: ["pytorch"]
+  - name: pyclugen
+    github_id: clugen/pyclugen
+    pypi_id: pyclugen
+    category: data-pipelines
