@@ -1186,6 +1186,10 @@ projects:
     pypi_id: pyqtgraph
     conda_id: conda-forge/pyqtgraph
     category: data-viz
+  - name: effector
+    github_id: givasile/effector
+    pypi_id: effector
+    category: interpretability
   - name: What-If Tool
     github_id: PAIR-code/what-if-tool
     pypi_id: witwidget
