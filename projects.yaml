@@ -1,4 +1,4 @@
-configuration:
+.configuration:
   min_stars: 300
   require_github: True
   max_trending_projects: 10
