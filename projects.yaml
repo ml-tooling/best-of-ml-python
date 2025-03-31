@@ -120,6 +120,9 @@ categories:
   - category: "chinese-nlp"
     title: "Chinese NLP"
     ignore: True
+  - category: "inference"
+    title: "Model Deployment and Inference"
+    subtitle: "Frameworks that deploy machine learning and/or deep learning models and allow sending inference queries to the deployed models."
 
 labels:
   - label: "tensorflow"
@@ -4651,3 +4654,7 @@ projects:
     github_id: clugen/pyclugen
     pypi_id: pyclugen
     category: data-pipelines
+  - name: Dynamo
+    github_id: ai-dynamo/dynamo
+    pypi_id: ai-dynamo
+    category: inference
