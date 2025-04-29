@@ -4651,3 +4651,8 @@ projects:
     github_id: clugen/pyclugen
     pypi_id: pyclugen
     category: data-pipelines
+  - name: skrub
+    github_id: skrub-data/skrub
+    pypi_id: skrub
+    category: tabular
+    labels: ["sklearn", "pandas"]
