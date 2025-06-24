@@ -3958,9 +3958,8 @@ projects:
     pypi_id: textflint
     category: adversarial
   - name: Coqui TTS
-    github_id: coqui-ai/TTS
-    pypi_id: tts
-    conda_id: conda-forge/tts
+    github_id: idiap/coqui-ai-TTS
+    pypi_id: coqui-tts
     category: audio
     labels: ["pytorch", "tensorflow"]
   - name: speechbrain
