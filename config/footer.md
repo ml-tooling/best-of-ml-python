@@ -3,6 +3,7 @@
 
 ## Related Resources
 
+- [**CatalyzeX**](https://www.catalyzex.com): Easily find open-source code implementations for ML papers (also [chrome extension](https://chrome.google.com/webstore/detail/aiml-papers-with-code-eve/aikkeehnlfpamidigaffhfmgbkdeheil) and [firefox extension](https://addons.mozilla.org/en-US/firefox/addon/code-finder-catalyzex/) that automatically find and link to code for ML papers everywhere).
 - [**Papers With Code**](https://paperswithcode.com): Discover ML papers, code, and evaluation tables.
 - [**Sotabench**](https://sotabench.com): Discover & compare open-source ML models.
 - [**Google Dataset Search**](https://toolbox.google.com/datasetsearch): Dataset search engine by Google.
